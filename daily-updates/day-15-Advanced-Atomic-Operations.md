@@ -1,4 +1,3 @@
-```markdown
 # Day 15: Advanced Atomic Operations
 
 In this lesson, we explore advanced atomic operations in CUDA in depth. Atomic operations allow multiple threads to safely update shared or global memory without data races. We will focus on advanced atomic functions such as `atomicCAS` (compare-and-swap) and `atomicExch` (atomic exchange) to build custom atomic operations. While atomics ensure correctness, overuse can lead to serialization and performance bottlenecks. In this lesson, you will learn exactly how these operations work, see detailed code examples with extensive inline comments, and view conceptual diagrams that illustrate the flow of these operations.
@@ -13,7 +12,7 @@ In this lesson, we explore advanced atomic operations in CUDA in depth. Atomic o
     - [b) atomicExch (Exchange)](#b-atomicexch-exchange)  
 4. [Practical Exercises](#4-practical-exercises)  
     - [a) Custom atomicMax for Floats Using atomicCAS](#a-custom-atomicmax-for-floats-using-atomiccas)  
-    - [b) Value Swapping with atomicExch](#b-value-swapping-with-atomicexch)  
+    - [b) Using atomicExch to Swap Values](#b-using-atomicexch-to-swap-values)  
 5. [Performance Considerations and Pitfalls](#5-performance-considerations-and-pitfalls)  
 6. [Conceptual Diagrams](#6-conceptual-diagrams)  
 7. [References & Further Reading](#7-references--further-reading)  
@@ -33,9 +32,6 @@ Atomic operations are essential when many threads need to update the same memory
 
 ## 2. Introduction to Advanced Atomic Operations
 Atomic operations ensure that a particular memory operation is completed entirely by one thread before another thread can modify that same memory location. This is crucial for avoiding race conditions in parallel algorithms. However, these operations can lead to contention when many threads try to update the same location, so they must be used judiciously.
-
-*Reference:*  
-- [CUDA C Programming Guide – Atomic Functions](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#atomic-functions)
 
 ---
 
@@ -154,7 +150,6 @@ int main() {
 - The kernel `atomicMaxKernel` calls `atomicMaxFloat` for each element, ensuring that the highest value is stored in `result`.
 
 ---
-
 ### b) Using atomicExch to Swap Values
 
 Below is a fully commented example that uses `atomicExch` to swap a value and then perform a simple computation.
@@ -316,5 +311,4 @@ In Day 15, we explored advanced atomic operations in CUDA with a detailed look a
 - **Optimize:** Explore techniques to reduce atomic contention, such as hierarchical reductions.
 - **Expand:** Study additional atomic functions and their applications in complex synchronization and reduction patterns.
 
-Happy coding, and continue pushing the boundaries of high-performance GPU programming!
 ```
