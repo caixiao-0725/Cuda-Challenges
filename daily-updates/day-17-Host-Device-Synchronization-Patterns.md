@@ -1,4 +1,3 @@
-```markdown
 # Day 17: Host-Device Synchronization Patterns
 
 CUDA kernels are launched **asynchronously** by default, meaning that the host (CPU) does **not wait** for the device (GPU) to complete execution before moving to the next instruction. While this is great for overlapping computations, it can lead to **incorrect results** if memory is accessed before the kernel finishes. 
@@ -19,11 +18,10 @@ Today's lesson is a deep dive into **Host-Device Synchronization Patterns**, foc
     - [a) Incorrect Execution Without Synchronization](#a-incorrect-execution-without-synchronization)  
     - [b) Correct Execution Using `cudaDeviceSynchronize()`](#b-correct-execution-using-cudadevicesynchronize)  
     - [c) Measuring Kernel Execution Time Using CUDA Events](#c-measuring-kernel-execution-time-using-cuda-events)  
-5. [Performance Considerations and Pitfalls](#5-performance-considerations-and-pitfalls)  
-6. [Conceptual Diagrams](#6-conceptual-diagrams)  
-7. [References & Further Reading](#7-references--further-reading)  
-8. [Conclusion](#8-conclusion)  
-9. [Next Steps](#9-next-steps)  
+5. [Conceptual Diagrams](#5-conceptual-diagrams)  
+6. [References & Further Reading](#6-references--further-reading)  
+7. [Conclusion](#7-conclusion)  
+8. [Next Steps](#8-next-steps)  
 
 ---
 
@@ -254,5 +252,4 @@ Today, we explored **Host-Device Synchronization Patterns**, ensuring:
 - **Optimize** event-based synchronization.
 - **Profile** kernel execution using Nsight Compute.
 
-Happy CUDA coding!
 ```
