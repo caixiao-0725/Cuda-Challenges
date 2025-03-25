@@ -1,4 +1,3 @@
-```markdown
 # Day 14: Progress Checkpoint
 
 In this final checkpoint of our introductory CUDA series (Days 1–13), we will consolidate your learning by reviewing key concepts, particularly focusing on the differences between global and shared memory usage. This lesson is designed as a comprehensive recap and self-assessment exercise. You will complete a quiz-like recap and create a “lessons learned” list to help avoid repeated mistakes in future projects.
@@ -6,15 +5,19 @@ In this final checkpoint of our introductory CUDA series (Days 1–13), we will 
 ---
 
 ## Table of Contents
-1. [Overview](#1-overview)  
-2. [Recap: Global vs. Shared Memory](#2-recap-global-vs-shared-memory)  
-3. [Quiz: Check Your Knowledge](#3-quiz-check-your-knowledge)  
-4. [Creating a “Lessons Learned” List](#4-creating-a-lessons-learned-list)  
-5. [Common Debugging Pitfalls](#5-common-debugging-pitfalls)  
-6. [Conceptual Diagrams](#6-conceptual-diagrams)  
-7. [References & Further Reading](#7-references--further-reading)  
-8. [Conclusion](#8-conclusion)  
-9. [Next Steps](#9-next-steps)  
+2. [Overview](#1-overview)  
+3. [Recap: Global vs. Shared Memory](#2-recap-global-vs-shared-memory)  
+4. [Quiz: Check Your Knowledge](#3-quiz-check-your-knowledge)  
+5. [Creating a “Lessons Learned” List](#4-creating-a-lessons-learned-list)  
+6. [Common Debugging Pitfalls](#5-common-debugging-pitfalls)  
+7. [Conceptual Diagrams](#6-conceptual-diagrams)  
+8. [Questions and Answers.](#7-questions-and-answers)  
+9. [Additional 20 Advanced Quiz Questions and Answers (Days 1–14)](#8-additional-20-advanced-quiz-questions-and-answers-days-1–14)  
+10. [Coding Challenges](#9-coding-challenges)  
+11. [Hard LeetCode-Style CUDA Coding Problems](#10-hard-leetcode-style-cuda-coding-problems)  
+12. [Hard LeetCode-Style CUDA Coding Problems Solution – Conceptual Diagrams](#11-hard-leetcode-style-cuda-coding-problems-solution--conceptual-diagrams)  
+13. [References & Further Reading](#12-references--further-reading)  
+14. [Conclusion](#13-conclusion)  
 
 ---
 
@@ -182,54 +185,10 @@ flowchart TD
 ```
 *Explanation:*  
 - This diagram shows the flow of the progress checkpoint: reviewing notes, recapping key concepts, taking a quiz, compiling a lessons learned list, identifying pitfalls, and planning future best practices.
-
 ---
 
-## 7. References & Further Reading
 
-1. **CUDA C Programming Guide – Introduction & Memory Model**  
-   [CUDA C Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)  
-   Provides a comprehensive overview of CUDA concepts including memory types and usage.
-
-2. **CUDA C Best Practices Guide**  
-   [CUDA C Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html)  
-   Detailed best practices for optimizing memory usage and avoiding common pitfalls.
-
-3. **Shared Memory Bank Conflicts**  
-   [CUDA Shared Memory Bank Conflicts](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#shared-memory)  
-   Specific details on optimizing shared memory accesses and avoiding bank conflicts.
-
-4. **NVIDIA Developer Blog**  
-   [NVIDIA Developer Blog](https://developer.nvidia.com/blog/)  
-   Articles and case studies on GPU programming techniques and optimization strategies.
-
-5. **"Programming Massively Parallel Processors: A Hands-on Approach" by David B. Kirk and Wen-mei W. Hwu**  
-   A comprehensive textbook on GPU architecture and programming techniques.
-
----
-
-## 8. Conclusion
-Day 14 serves as a critical progress checkpoint to consolidate your learning from Days 1–13. In this lesson, you:
-- Reviewed the differences between global and shared memory, including their respective roles and optimization techniques.
-- Answered quiz questions to verify your understanding.
-- Compiled a detailed “lessons learned” list to avoid repeated mistakes.
-- Identified common debugging pitfalls and strategies for future development.
-
-This comprehensive review will help ensure that you have a solid foundation for advanced CUDA programming and optimization.
-
----
-
-## 9. Next Steps
-As you move forward:
-- **Apply What You’ve Learned:** Use your “lessons learned” list as a reference for all future CUDA projects.
-- **Deep Dive into Advanced Topics:** Explore more advanced optimization techniques, asynchronous operations, and profiling tools.
-- **Continued Practice:** Keep revisiting and refining your code based on these best practices to build robust and efficient GPU applications.
-
-Stay committed to consolidating your knowledge and continually improving your CUDA programming skills!
-```
-
-```markdown
-# Day 14: Progress Checkpoint – Quiz Questions and Answers
+## 7.  Questions and Answers.
 
 Below are 20 logical quiz questions along with their answers. These questions are designed to test your understanding of the key concepts covered in Days 1–13, with a focus on global versus shared memory, thread synchronization, memory coalescing, atomic operations, and overall CUDA best practices.
 
@@ -355,45 +314,8 @@ The CUDA memory hierarchy (global, shared, constant, local, and registers) allow
 
 ---
 
-## References & Further Reading
 
-1. **CUDA C Programming Guide – Introduction & Memory Model**  
-   [CUDA C Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
-
-2. **CUDA C Best Practices Guide**  
-   [CUDA C Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html)
-
-3. **CUDA C Programming Guide – Atomic Functions**  
-   [CUDA Atomic Functions](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#atomic-functions)
-
-4. **CUDA C Programming Guide – Shared Memory**  
-   [Shared Memory Section](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#shared-memory)
-
-5. **NVIDIA Developer Blog**  
-   [NVIDIA Developer Blog](https://developer.nvidia.com/blog/)
-
-6. **"Programming Massively Parallel Processors: A Hands-on Approach" by David B. Kirk and Wen-mei W. Hwu**
-
----
-
-## Conclusion
-
-These 20 quiz questions and answers are designed to ensure you have a thorough understanding of the key CUDA concepts covered in Days 1–13, with a particular focus on the differences between global and shared memory, synchronization, atomic operations, and performance optimization techniques. Use this quiz as a self-assessment tool to reinforce your learning and identify areas for further review.
-
----
-
-## Next Steps
-
-- **Review your quiz answers:** Reflect on any areas where your understanding may be weak.
-- **Update your “Lessons Learned” list:** Incorporate any new insights from this review.
-- **Continue practicing:** Apply these concepts in more advanced CUDA projects and experiments.
-- **Explore further reading:** Use the provided references to deepen your knowledge of CUDA programming.
-
-Happy coding, and keep pushing the limits of GPU performance!
-```
-
-```markdown
-# Day 14: Additional 20 Advanced Quiz Questions and Answers (Days 1–14)
+## 8. Additional 20 Advanced Quiz Questions and Answers (Days 1–14)
 
 Below are 20 highly complex quiz questions covering advanced topics from Days 1–14. These questions are designed to challenge your understanding of GPU computing concepts, memory models, thread synchronization, atomic operations, and optimization techniques in CUDA. Each question is followed by a detailed answer.
 
@@ -561,7 +483,7 @@ Below are 20 highly complex quiz questions covering advanced topics from Days 1�
       int idx = threadIdx.x + blockIdx.x * blockDim.x;
       float val = data[idx + 1];  // Shifted access may cause misalignment
   }
-  ```
+  
 - **Outcome:**  
   The misalignedKernel may require multiple transactions, degrading performance.
 
@@ -646,43 +568,7 @@ Below are 20 highly complex quiz questions covering advanced topics from Days 1�
   - Balance between the number of blocks (to keep all SMs busy) and the threads per block (to ensure sufficient parallelism without resource oversubscription).
 
 ---
-
-## References & Further Reading
-
-1. **CUDA C Programming Guide – Memory Model & Atomic Functions**  
-   [CUDA C Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)  
-2. **CUDA C Best Practices Guide**  
-   [CUDA C Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html)  
-3. **CUDA C Programming Guide – Shared Memory and Bank Conflicts**  
-   [Shared Memory Section](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#shared-memory)  
-4. **NVIDIA NSight Compute Documentation**  
-   [NVIDIA NSight Compute](https://docs.nvidia.com/nsight-compute/)  
-5. **"Programming Massively Parallel Processors: A Hands-on Approach" by David B. Kirk and Wen-mei W. Hwu**
-
----
-
-## Conclusion
-
-These 20 advanced quiz questions are designed to test and reinforce your in-depth understanding of CUDA programming concepts from Days 1–14. They cover a wide range of topics from memory hierarchies and atomic operations to thread synchronization and performance optimization. Use these questions as a self-assessment tool to identify any gaps in your knowledge and to further solidify your grasp of high-performance GPU programming.
-
----
-
-## Next Steps
-
-- **Review your answers:** Revisit any topics where your answers were incomplete or incorrect.
-- **Deepen your study:** Use the references provided to explore topics in more detail.
-- **Apply your knowledge:** Work on mini-projects and further exercises to continuously improve your CUDA programming skills.
-- **Keep a learning journal:** Update your “lessons learned” list with insights from these advanced topics.
-
-Happy coding and best of luck in your continued journey into high-performance GPU programming!
-```
-
-```markdown
-# Day 14: LeetCode-Style CUDA Coding Challenges
-
-Below are 20 LeetCode-style coding problems focused on CUDA programming topics. These problems are designed to test your practical coding skills related to memory management, atomic operations, thread synchronization, and performance optimization in CUDA. Each problem includes a description, input/output specifications (where applicable), constraints, and hints. Sample solution outlines are provided to guide you in developing your own solutions.
-
----
+## 9. Coding Challenges.
 
 ## Problem 1: Parallel Array Sum Using Atomic Operations
 **Description:**  
@@ -1105,41 +991,8 @@ Write a CUDA kernel that computes the natural logarithm of each element in an ar
 
 ---
 
-## References & Further Reading
 
-1. **CUDA C Programming Guide – Memory Model & Atomic Functions**  
-   [CUDA C Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
-2. **CUDA C Best Practices Guide**  
-   [CUDA C Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html)
-3. **CUDA C Programming Guide – Shared Memory**  
-   [Shared Memory Section](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#shared-memory)
-4. **NVIDIA NSight Compute Documentation**  
-   [NVIDIA NSight Compute](https://docs.nvidia.com/nsight-compute/)
-5. **"Programming Massively Parallel Processors: A Hands-on Approach" by David B. Kirk and Wen-mei W. Hwu**
-
----
-
-## Conclusion
-
-These 20 LeetCode-style CUDA coding problems are designed to test and improve your hands-on skills in GPU programming. They cover a wide range of topics—from basic atomic operations and memory management to advanced optimization techniques involving shared memory, thread synchronization, and reduction algorithms. Work through these challenges to solidify your understanding and prepare for more advanced projects.
-
----
-
-## Next Steps
-
-- **Solve and test these problems:** Write your own CUDA kernels and verify their correctness and performance.
-- **Review your solutions:** Compare your implementations with the provided hints and optimize further.
-- **Keep practicing:** Continue to build on these fundamentals with more complex projects and real-world applications.
-- **Refer to the documentation:** Use the provided references to deepen your knowledge and troubleshoot issues.
-
-Happy coding and best of luck with your CUDA journey!
-```
-
-```markdown
-# Day 14: 20 Hard LeetCode-Style CUDA Coding Problems
-
-Below are 20 challenging, hard-level LeetCode-style CUDA coding problems designed to test and extend your skills in high-performance GPU programming. These problems cover advanced topics such as hierarchical reductions, dynamic parallelism, sparse computations, and complex optimization techniques. Each problem is described in detail with constraints, expected behavior, and hints to guide your solution design. Use these problems to push your CUDA programming expertise to the next level!
-
+## 10.  Hard LeetCode-Style CUDA Coding Problems
 ---
 
 ## Problem 1: Hierarchical Parallel Reduction with Warp-Level Primitives
@@ -1493,1465 +1346,7 @@ Implement a CUDA kernel to perform one iteration of the conjugate gradient metho
 
 ---
 
-## References & Further Reading
-
-1. **CUDA C Programming Guide – Memory Model & Atomic Functions**  
-   [CUDA C Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
-
-2. **CUDA C Best Practices Guide**  
-   [CUDA C Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html)
-
-3. **CUDA C Programming Guide – Shared Memory**  
-   [Shared Memory Section](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#shared-memory)
-
-4. **NVIDIA NSight Compute Documentation**  
-   [NVIDIA NSight Compute](https://docs.nvidia.com/nsight-compute/)
-
-5. **"Programming Massively Parallel Processors: A Hands-on Approach" by David B. Kirk and Wen-mei W. Hwu**
-
-6. **NVIDIA Developer Blog**  
-   [NVIDIA Developer Blog](https://developer.nvidia.com/blog/)
-
----
-
-## Conclusion
-
-These 20 hard LeetCode-style CUDA problems are designed to challenge you and deepen your expertise in advanced GPU programming. They cover a wide spectrum of topics, from intricate reduction and dynamic parallelism to sophisticated algorithms such as the conjugate gradient method and cellular automata. Work through these problems, optimize your solutions, and use the provided references to further explore CUDA's capabilities.
-
----
-
-## Next Steps
-
-- **Implement and Test:** Solve each problem, write CUDA kernels, and test your implementations thoroughly.
-- **Optimize:** Profile your solutions using NVIDIA NSight and other profiling tools to identify performance bottlenecks.
-- **Reflect:** Update your “lessons learned” list with insights gained from these advanced challenges.
-- **Explore Further:** Continue to work on real-world applications and more complex projects to solidify your CUDA programming skills.
-
-Happy coding, and best of luck mastering these advanced CUDA challenges!
-```
-
-```markdown
-# Day 14: Hard LeetCode-Style CUDA Coding Problems – Solutions
-
-Below are detailed solutions for the 20 hard LeetCode-style CUDA coding problems. Each solution includes code, inline comments, and explanations. These sample solutions are provided in GitHub Markdown format.
-
----
-
-## Problem 1: Hierarchical Parallel Reduction with Warp-Level Primitives
-
-**Solution:**
-
-```cpp
-// hierarchicalReduction.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-// Kernel: Compute block-level reduction using warp-level primitives and shared memory,
-// then use atomicAdd to combine block results.
-__global__ void hierarchicalReduction(const float *input, float *result, int N) {
-    // Allocate shared memory for warp-level partial sums.
-    extern __shared__ float sdata[];
-
-    int tid = threadIdx.x;
-    int idx = blockIdx.x * blockDim.x + tid;
-    float sum = 0.0f;
-
-    // Load elements from global memory into registers.
-    if (idx < N) {
-        sum = input[idx];
-    }
-
-    // Intra-warp reduction using warp shuffle.
-    for (int offset = warpSize / 2; offset > 0; offset /= 2) {
-        sum += __shfl_down_sync(0xffffffff, sum, offset);
-    }
-
-    // Write each warp's result to shared memory.
-    if ((tid % warpSize) == 0) {
-        sdata[tid / warpSize] = sum;
-    }
-    __syncthreads();
-
-    // Let the first warp perform the reduction of warp results.
-    int numWarps = (blockDim.x + warpSize - 1) / warpSize;
-    if (tid < numWarps) {
-        sum = sdata[tid];
-        for (int offset = numWarps / 2; offset > 0; offset /= 2) {
-            sum += __shfl_down_sync(0xffffffff, sum, offset);
-        }
-        if (tid == 0) {
-            // Atomic add of the block's result to the global result.
-            atomicAdd(result, sum);
-        }
-    }
-}
-
-// Host code to invoke the hierarchical reduction kernel.
-int main() {
-    int N = 1 << 20; // 1M elements
-    size_t size = N * sizeof(float);
-    float *h_input = (float*)malloc(size);
-    float h_result = 0.0f;
-
-    // Initialize input array with 1.0 for simplicity.
-    for (int i = 0; i < N; i++) {
-        h_input[i] = 1.0f;
-    }
-
-    float *d_input, *d_result;
-    cudaMalloc((void**)&d_input, size);
-    cudaMalloc((void**)&d_result, sizeof(float));
-    cudaMemcpy(d_input, h_input, size, cudaMemcpyHostToDevice);
-    cudaMemcpy(d_result, &h_result, sizeof(float), cudaMemcpyHostToDevice);
-
-    int threadsPerBlock = 256;
-    int blocksPerGrid = (N + threadsPerBlock - 1) / threadsPerBlock;
-    // Shared memory size = (threadsPerBlock / warpSize) * sizeof(float)
-    size_t sharedMemSize = ((threadsPerBlock + 31) / 32) * sizeof(float);
-    hierarchicalReduction<<<blocksPerGrid, threadsPerBlock, sharedMemSize>>>(d_input, d_result, N);
-
-    cudaDeviceSynchronize();
-    cudaMemcpy(&h_result, d_result, sizeof(float), cudaMemcpyDeviceToHost);
-
-    printf("Computed sum = %f (Expected %d.0)\n", h_result, N);
-
-    cudaFree(d_input);
-    cudaFree(d_result);
-    free(h_input);
-    return 0;
-}
-```
-
-**Explanation:**  
-- Each thread loads one element and performs a warp-level reduction using `__shfl_down_sync()`.
-- Partial sums per warp are stored in shared memory.
-- The first warp then reduces these partial sums.
-- Finally, the block's sum is added to the global result via `atomicAdd()`.
-
----
-
-## Problem 2: Parallel Array Maximum Using Atomic Operations
-
-**Solution:**
-
-```cpp
-// atomicMaxFloat.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-#include <limits>
-
-// Helper function to perform atomicMax for floats using integer representation.
-__device__ float atomicMaxFloat(float* address, float val) {
-    int* address_as_i = (int*)address;
-    int old = *address_as_i, assumed;
-    do {
-        assumed = old;
-        // Reinterpret the float bits as integer, then compare.
-        old = atomicCAS(address_as_i, assumed, __float_as_int(fmaxf(val, __int_as_float(assumed))));
-    } while (assumed != old);
-    return __int_as_float(old);
-}
-
-__global__ void atomicMaxKernel(const float *input, float *result, int N) {
-    int idx = threadIdx.x + blockIdx.x * blockDim.x;
-    if (idx < N) {
-        atomicMaxFloat(result, input[idx]);
-    }
-}
-
-int main() {
-    int N = 1 << 20; // 1M elements
-    size_t size = N * sizeof(float);
-    float *h_input = (float*)malloc(size);
-    float h_result = -FLT_MAX;
-
-    // Initialize input with random numbers between 0 and 100.
-    for (int i = 0; i < N; i++) {
-        h_input[i] = (float)(rand() % 101);
-    }
-
-    float *d_input, *d_result;
-    cudaMalloc((void**)&d_input, size);
-    cudaMalloc((void**)&d_result, sizeof(float));
-    cudaMemcpy(d_input, h_input, size, cudaMemcpyHostToDevice);
-    cudaMemcpy(d_result, &h_result, sizeof(float), cudaMemcpyHostToDevice);
-
-    int threadsPerBlock = 256;
-    int blocksPerGrid = (N + threadsPerBlock - 1) / threadsPerBlock;
-    atomicMaxKernel<<<blocksPerGrid, threadsPerBlock>>>(d_input, d_result, N);
-    cudaDeviceSynchronize();
-    cudaMemcpy(&h_result, d_result, sizeof(float), cudaMemcpyDeviceToHost);
-
-    printf("Maximum value found = %f\n", h_result);
-
-    cudaFree(d_input);
-    cudaFree(d_result);
-    free(h_input);
-    return 0;
-}
-```
-
-**Explanation:**  
-- The `atomicMaxFloat` function uses a compare-and-swap loop to update the maximum value safely.
-- The kernel calls this function for each element.
-- The global maximum is stored in `d_result`.
-
----
-
-## Problem 3: Vector Addition with Global Memory Coalescing
-
-**Solution:**
-
-```cpp
-// vectorAddKernel.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-__global__ void vectorAddKernel(const float *A, const float *B, float *C, int N) {
-    int idx = threadIdx.x + blockIdx.x * blockDim.x;
-    if (idx < N) {
-        C[idx] = A[idx] + B[idx];
-    }
-}
-
-int main() {
-    int N = 1 << 20; // 1M elements
-    size_t size = N * sizeof(float);
-    float *h_A = (float*)malloc(size);
-    float *h_B = (float*)malloc(size);
-    float *h_C = (float*)malloc(size);
-
-    // Initialize input arrays.
-    for (int i = 0; i < N; i++) {
-        h_A[i] = 1.0f;
-        h_B[i] = 2.0f;
-    }
-
-    float *d_A, *d_B, *d_C;
-    cudaMalloc((void**)&d_A, size);
-    cudaMalloc((void**)&d_B, size);
-    cudaMalloc((void**)&d_C, size);
-    cudaMemcpy(d_A, h_A, size, cudaMemcpyHostToDevice);
-    cudaMemcpy(d_B, h_B, size, cudaMemcpyHostToDevice);
-
-    int threadsPerBlock = 256;
-    int blocksPerGrid = (N + threadsPerBlock - 1) / threadsPerBlock;
-    vectorAddKernel<<<blocksPerGrid, threadsPerBlock>>>(d_A, d_B, d_C, N);
-    cudaDeviceSynchronize();
-    cudaMemcpy(h_C, d_C, size, cudaMemcpyDeviceToHost);
-
-    // Verify result.
-    for (int i = 0; i < 10; i++) {
-        printf("C[%d] = %f\n", i, h_C[i]);
-    }
-
-    cudaFree(d_A);
-    cudaFree(d_B);
-    cudaFree(d_C);
-    free(h_A);
-    free(h_B);
-    free(h_C);
-    return 0;
-}
-```
-
-**Explanation:**  
-- Threads compute the global index and add corresponding elements from A and B.
-- Memory accesses are contiguous, ensuring coalesced global memory access.
-
----
-
-## Problem 4: Matrix Multiplication Using Global Memory
-
-**Solution:**
-
-```cpp
-// matrixMulGlobal.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-__global__ void matrixMulGlobal(const float *A, const float *B, float *C, int M, int N, int K) {
-    int row = blockIdx.y * blockDim.y + threadIdx.y;
-    int col = blockIdx.x * blockDim.x + threadIdx.x;
-    if (row < M && col < K) {
-        float sum = 0.0f;
-        for (int i = 0; i < N; i++) {
-            sum += A[row * N + i] * B[i * K + col];
-        }
-        C[row * K + col] = sum;
-    }
-}
-
-int main() {
-    int M = 64, N = 64, K = 64;
-    size_t sizeA = M * N * sizeof(float);
-    size_t sizeB = N * K * sizeof(float);
-    size_t sizeC = M * K * sizeof(float);
-
-    float *h_A = (float*)malloc(sizeA);
-    float *h_B = (float*)malloc(sizeB);
-    float *h_C = (float*)malloc(sizeC);
-
-    // Initialize matrices.
-    for (int i = 0; i < M * N; i++) h_A[i] = 1.0f;
-    for (int i = 0; i < N * K; i++) h_B[i] = 1.0f;
-
-    float *d_A, *d_B, *d_C;
-    cudaMalloc((void**)&d_A, sizeA);
-    cudaMalloc((void**)&d_B, sizeB);
-    cudaMalloc((void**)&d_C, sizeC);
-    cudaMemcpy(d_A, h_A, sizeA, cudaMemcpyHostToDevice);
-    cudaMemcpy(d_B, h_B, sizeB, cudaMemcpyHostToDevice);
-
-    dim3 threadsPerBlock(16, 16);
-    dim3 blocksPerGrid((K + 15) / 16, (M + 15) / 16);
-    matrixMulGlobal<<<blocksPerGrid, threadsPerBlock>>>(d_A, d_B, d_C, M, N, K);
-    cudaDeviceSynchronize();
-    cudaMemcpy(h_C, d_C, sizeC, cudaMemcpyDeviceToHost);
-
-    printf("Matrix multiplication result (first element): %f\n", h_C[0]);
-
-    cudaFree(d_A);
-    cudaFree(d_B);
-    cudaFree(d_C);
-    free(h_A);
-    free(h_B);
-    free(h_C);
-    return 0;
-}
-```
-
-**Explanation:**  
-- A naïve matrix multiplication kernel is implemented using only global memory.
-- Each thread computes one element of the output matrix C.
-
----
-
-## Problem 5: Tiled Matrix Multiplication with Shared Memory
-
-**Solution:**
-
-```cpp
-// tiledMatrixMul.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-#define TILE_WIDTH 16
-
-__global__ void tiledMatrixMul(const float *A, const float *B, float *C, int width) {
-    __shared__ float tileA[TILE_WIDTH][TILE_WIDTH];
-    __shared__ float tileB[TILE_WIDTH][TILE_WIDTH];
-
-    int row = blockIdx.y * TILE_WIDTH + threadIdx.y;
-    int col = blockIdx.x * TILE_WIDTH + threadIdx.x;
-    float Pvalue = 0.0f;
-
-    for (int m = 0; m < (width + TILE_WIDTH - 1) / TILE_WIDTH; m++) {
-        if (row < width && m * TILE_WIDTH + threadIdx.x < width)
-            tileA[threadIdx.y][threadIdx.x] = A[row * width + m * TILE_WIDTH + threadIdx.x];
-        else
-            tileA[threadIdx.y][threadIdx.x] = 0.0f;
-
-        if (col < width && m * TILE_WIDTH + threadIdx.y < width)
-            tileB[threadIdx.y][threadIdx.x] = B[(m * TILE_WIDTH + threadIdx.y) * width + col];
-        else
-            tileB[threadIdx.y][threadIdx.x] = 0.0f;
-
-        __syncthreads();
-
-        for (int k = 0; k < TILE_WIDTH; k++)
-            Pvalue += tileA[threadIdx.y][k] * tileB[k][threadIdx.x];
-
-        __syncthreads();
-    }
-    if (row < width && col < width)
-        C[row * width + col] = Pvalue;
-}
-
-int main() {
-    int width = 64;
-    size_t size = width * width * sizeof(float);
-    float *h_A = (float*)malloc(size);
-    float *h_B = (float*)malloc(size);
-    float *h_C = (float*)malloc(size);
-    for (int i = 0; i < width * width; i++) {
-        h_A[i] = 1.0f;
-        h_B[i] = 1.0f;
-    }
-
-    float *d_A, *d_B, *d_C;
-    cudaMalloc((void**)&d_A, size);
-    cudaMalloc((void**)&d_B, size);
-    cudaMalloc((void**)&d_C, size);
-    cudaMemcpy(d_A, h_A, size, cudaMemcpyHostToDevice);
-    cudaMemcpy(d_B, h_B, size, cudaMemcpyHostToDevice);
-
-    dim3 threadsPerBlock(TILE_WIDTH, TILE_WIDTH);
-    dim3 blocksPerGrid((width + TILE_WIDTH - 1) / TILE_WIDTH, (width + TILE_WIDTH - 1) / TILE_WIDTH);
-    tiledMatrixMul<<<blocksPerGrid, threadsPerBlock>>>(d_A, d_B, d_C, width);
-    cudaDeviceSynchronize();
-    cudaMemcpy(h_C, d_C, size, cudaMemcpyDeviceToHost);
-
-    printf("Tiled matrix multiplication result (first element): %f\n", h_C[0]);
-
-    cudaFree(d_A);
-    cudaFree(d_B);
-    cudaFree(d_C);
-    free(h_A);
-    free(h_B);
-    free(h_C);
-    return 0;
-}
-```
-
-**Explanation:**  
-- The kernel divides the matrices into tiles loaded into shared memory.
-- Proper synchronization (`__syncthreads()`) is used before and after computations.
-- The host sets up the matrices and launches the kernel with a 2D grid.
-
----
-
-## Problem 6: Parallel Quicksort with In-Place Partitioning
-
-**Solution Outline:**
-
-Implementing a fully parallel quicksort is complex. Below is a simplified outline using dynamic parallelism for the partitioning step. This is a conceptual solution.
-
-```cpp
-// quicksortKernel.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-// Device function for partitioning
-__device__ int partition(float *data, int left, int right) {
-    float pivot = data[right];
-    int i = left;
-    for (int j = left; j < right; j++) {
-        if (data[j] < pivot) {
-            // Swap data[i] and data[j]
-            float temp = data[i];
-            data[i] = data[j];
-            data[j] = temp;
-            i++;
-        }
-    }
-    // Swap data[i] and data[right] (pivot to correct position)
-    float temp = data[i];
-    data[i] = data[right];
-    data[right] = temp;
-    return i;
-}
-
-// Recursive quicksort kernel using dynamic parallelism.
-__global__ void quicksortKernel(float *data, int left, int right) {
-    if (left < right) {
-        int pivotIndex = partition(data, left, right);
-        // Launch child kernels for the two partitions if large enough.
-        if (pivotIndex - 1 - left > 1024)
-            quicksortKernel<<<1, 256>>>(data, left, pivotIndex - 1);
-        else
-            quicksortKernel<<<1, 256>>>(data, left, pivotIndex - 1);
-        if (right - pivotIndex - 1 > 1024)
-            quicksortKernel<<<1, 256>>>(data, pivotIndex + 1, right);
-        else
-            quicksortKernel<<<1, 256>>>(data, pivotIndex + 1, right);
-        // Synchronize after launching child kernels.
-        cudaDeviceSynchronize();
-    }
-}
-
-// Host code to invoke quicksort.
-int main() {
-    int N = 1 << 14; // example size
-    size_t size = N * sizeof(float);
-    float *h_data = (float*)malloc(size);
-    for (int i = 0; i < N; i++) {
-        h_data[i] = (float)(rand() % 1000);
-    }
-
-    float *d_data;
-    cudaMalloc((void**)&d_data, size);
-    cudaMemcpy(d_data, h_data, size, cudaMemcpyHostToDevice);
-
-    // Launch initial kernel.
-    quicksortKernel<<<1, 256>>>(d_data, 0, N - 1);
-    cudaDeviceSynchronize();
-
-    cudaMemcpy(h_data, d_data, size, cudaMemcpyDeviceToHost);
-
-    // (Optionally validate the sorted array here)
-
-    cudaFree(d_data);
-    free(h_data);
-    return 0;
-}
-```
-
-**Explanation:**  
-- A device partition function rearranges elements around a pivot.
-- The quicksort kernel uses recursion via dynamic parallelism.
-- Child kernels are launched recursively to sort partitions.
-- `cudaDeviceSynchronize()` ensures that child kernels complete before proceeding.
-
----
-
-## Problem 7: Convolution Operation with Variable Kernel Size
-
-**Solution:**
-
-```cpp
-// convolutionKernel.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-#define FILTER_MAX_SIZE 49 // e.g., maximum 7x7 filter
-
-// Constant memory for the filter
-__constant__ float d_filter[FILTER_MAX_SIZE];
-
-__global__ void convolutionKernel(const float *image, float *output, int width, int height, int filterWidth) {
-    // Calculate row and column indices for the output pixel.
-    int col = blockIdx.x * blockDim.x + threadIdx.x;
-    int row = blockIdx.y * blockDim.y + threadIdx.y;
-    int filterRadius = filterWidth / 2;
-
-    // Allocate shared memory for the tile, including halo.
-    extern __shared__ float sharedTile[];
-    int sharedWidth = blockDim.x + filterWidth - 1;
-    
-    // Calculate shared memory indices.
-    int tx = threadIdx.x;
-    int ty = threadIdx.y;
-    int sharedX = tx + filterRadius;
-    int sharedY = ty + filterRadius;
-    
-    // Load the central data and halo from global memory.
-    int imgX = col - filterRadius;
-    int imgY = row - filterRadius;
-    if (imgX >= 0 && imgX < width && imgY >= 0 && imgY < height)
-        sharedTile[ty * sharedWidth + tx] = image[imgY * width + imgX];
-    else
-        sharedTile[ty * sharedWidth + tx] = 0.0f;
-    
-    __syncthreads();
-
-    // Only compute if the thread corresponds to a valid output pixel.
-    if (col < width && row < height) {
-        float sum = 0.0f;
-        for (int i = 0; i < filterWidth; i++) {
-            for (int j = 0; j < filterWidth; j++) {
-                sum += sharedTile[(ty + i) * sharedWidth + (tx + j)] * d_filter[i * filterWidth + j];
-            }
-        }
-        output[row * width + col] = sum;
-    }
-}
-
-int main() {
-    int width = 512, height = 512, filterWidth = 3;
-    size_t imageSize = width * height * sizeof(float);
-    float *h_image = (float*)malloc(imageSize);
-    float *h_output = (float*)malloc(imageSize);
-    // Initialize image...
-    for (int i = 0; i < width * height; i++) {
-        h_image[i] = 1.0f;
-    }
-    // Example filter: simple averaging filter
-    float h_filter[9] = {1/9.0f,1/9.0f,1/9.0f,1/9.0f,1/9.0f,1/9.0f,1/9.0f,1/9.0f,1/9.0f};
-
-    float *d_image, *d_output;
-    cudaMalloc((void**)&d_image, imageSize);
-    cudaMalloc((void**)&d_output, imageSize);
-    cudaMemcpy(d_image, h_image, imageSize, cudaMemcpyHostToDevice);
-    cudaMemcpyToSymbol(d_filter, h_filter, filterWidth * filterWidth * sizeof(float));
-
-    dim3 threadsPerBlock(16, 16);
-    dim3 blocksPerGrid((width + 15) / 16, (height + 15) / 16);
-    int sharedMemSize = (16 + filterWidth - 1) * (16 + filterWidth - 1) * sizeof(float);
-    convolutionKernel<<<blocksPerGrid, threadsPerBlock, sharedMemSize>>>(d_image, d_output, width, height, filterWidth);
-    cudaDeviceSynchronize();
-    cudaMemcpy(h_output, d_output, imageSize, cudaMemcpyDeviceToHost);
-
-    printf("Convolution completed. Output[0]=%f\n", h_output[0]);
-
-    cudaFree(d_image);
-    cudaFree(d_output);
-    free(h_image);
-    free(h_output);
-    return 0;
-}
-```
-
-**Explanation:**  
-- The filter is stored in constant memory.
-- Shared memory is allocated dynamically with a halo to accommodate the filter size.
-- Each thread loads a tile including halo regions, synchronizes, and performs convolution.
-- Boundary conditions are handled by zero-padding.
-
----
-
-## Problem 8: Iterative Jacobi Solver for Poisson Equation
-
-**Solution Outline:**
-
-Below is a simplified version that performs one iteration of the Jacobi method.
-
-```cpp
-// jacobiSolverKernel.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-__global__ void jacobiSolverKernel(const float *input, float *output, int width, float *error) {
-    int x = blockIdx.x * blockDim.x + threadIdx.x;
-    int y = blockIdx.y * blockDim.y + threadIdx.y;
-    
-    if (x > 0 && x < width - 1 && y > 0 && y < width - 1) {
-        int idx = y * width + x;
-        // Compute new value as average of neighbors.
-        float newVal = 0.25f * (input[idx - 1] + input[idx + 1] + input[idx - width] + input[idx + width]);
-        output[idx] = newVal;
-        // Compute absolute error.
-        float diff = fabsf(newVal - input[idx]);
-        atomicMax((int*)error, __float_as_int(diff)); // Using atomicMax on bit representation
-    }
-}
-
-int main() {
-    int width = 512;
-    size_t size = width * width * sizeof(float);
-    float *h_input = (float*)malloc(size);
-    float *h_output = (float*)malloc(size);
-    // Initialize h_input with some values.
-    for (int i = 0; i < width * width; i++) {
-        h_input[i] = 0.0f;
-    }
-    // Boundary conditions etc.
-    
-    float *d_input, *d_output, *d_error;
-    cudaMalloc((void**)&d_input, size);
-    cudaMalloc((void**)&d_output, size);
-    cudaMalloc((void**)&d_error, sizeof(float));
-    cudaMemcpy(d_input, h_input, size, cudaMemcpyHostToDevice);
-    float initError = 0.0f;
-    cudaMemcpy(d_error, &initError, sizeof(float), cudaMemcpyHostToDevice);
-    
-    dim3 threadsPerBlock(16, 16);
-    dim3 blocksPerGrid((width + 15) / 16, (width + 15) / 16);
-    jacobiSolverKernel<<<blocksPerGrid, threadsPerBlock>>>(d_input, d_output, width, d_error);
-    cudaDeviceSynchronize();
-    
-    // Copy result and error back
-    cudaMemcpy(h_output, d_output, size, cudaMemcpyDeviceToHost);
-    float h_error;
-    cudaMemcpy(&h_error, d_error, sizeof(float), cudaMemcpyDeviceToHost);
-    printf("Jacobi iteration error: %f\n", h_error);
-    
-    cudaFree(d_input);
-    cudaFree(d_output);
-    cudaFree(d_error);
-    free(h_input);
-    free(h_output);
-    return 0;
-}
-```
-
-**Explanation:**  
-- Each thread updates the grid value based on its neighbors.
-- Atomic operations (here, using an atomicMax on the bit representation) are used to track the maximum error.
-- Synchronization is implicit due to kernel boundaries.
-
----
-
-## Problem 9: Warp-Level Inclusive Scan (Prefix Sum)
-
-**Solution:**
-
-```cpp
-// warpInclusiveScan.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-__global__ void warpInclusiveScan(const float *input, float *output, int N) {
-    int idx = threadIdx.x + blockIdx.x * blockDim.x;
-    if (idx >= N) return;
-    float val = input[idx];
-    
-    // Inclusive scan within a warp using shuffle.
-    for (int offset = 1; offset < warpSize; offset *= 2) {
-        float n = __shfl_up_sync(0xffffffff, val, offset);
-        if ((threadIdx.x & (warpSize - 1)) >= offset)
-            val += n;
-    }
-    output[idx] = val;
-}
-
-int main() {
-    int N = 1024; // Assume N is a multiple of warpSize (32)
-    size_t size = N * sizeof(float);
-    float *h_input = (float*)malloc(size);
-    float *h_output = (float*)malloc(size);
-    for (int i = 0; i < N; i++) {
-        h_input[i] = 1.0f; // simple input
-    }
-    
-    float *d_input, *d_output;
-    cudaMalloc((void**)&d_input, size);
-    cudaMalloc((void**)&d_output, size);
-    cudaMemcpy(d_input, h_input, size, cudaMemcpyHostToDevice);
-    
-    int threadsPerBlock = 128;
-    int blocksPerGrid = (N + threadsPerBlock - 1) / threadsPerBlock;
-    warpInclusiveScan<<<blocksPerGrid, threadsPerBlock>>>(d_input, d_output, N);
-    cudaDeviceSynchronize();
-    cudaMemcpy(h_output, d_output, size, cudaMemcpyDeviceToHost);
-    
-    printf("Warp inclusive scan result (first 10 elements):\n");
-    for (int i = 0; i < 10; i++) {
-        printf("%f ", h_output[i]);
-    }
-    printf("\n");
-    
-    cudaFree(d_input);
-    cudaFree(d_output);
-    free(h_input);
-    free(h_output);
-    return 0;
-}
-```
-
-**Explanation:**  
-- Uses `__shfl_up_sync` to perform an inclusive scan within each warp.
-- Each thread accumulates the sum of values in its warp.
-- Assumes N is a multiple of warpSize.
-
----
-
-## Problem 10: Breadth-First Search (BFS) with Dynamic Parallelism
-
-**Solution Outline:**
-
-Due to the complexity of BFS with dynamic parallelism, here is a high-level outline with pseudocode.
-
-```cpp
-// bfsKernel.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-// Pseudocode: This is an outline of a dynamic parallelism based BFS kernel.
-__global__ void bfsKernel(int *graph, int *frontier, int *visited, int numNodes, int currentLevel) {
-    int idx = threadIdx.x + blockIdx.x * blockDim.x;
-    if (idx < numNodes && frontier[idx] == currentLevel) {
-        // For each neighbor of node idx:
-        // (Assume graph is represented as an adjacency list in CSR format)
-        // for (each neighbor) {
-        //     if (visited[neighbor] == 0) {
-        //         visited[neighbor] = currentLevel + 1;
-        //         atomicExch(&frontier[neighbor], currentLevel + 1);
-        //     }
-        // }
-    }
-    // If new nodes are added to the frontier, launch a child kernel for the next level.
-    // if (some condition) {
-    //     bfsKernel<<<...>>>(graph, frontier, visited, numNodes, currentLevel + 1);
-    // }
-    // Synchronize if necessary.
-    // cudaDeviceSynchronize();
-}
-
-// The host code would launch the initial BFS kernel and iterate until no new nodes are discovered.
-```
-
-**Explanation:**  
-- The kernel processes nodes in the current frontier.
-- Dynamic parallelism is used to launch subsequent BFS levels.
-- Proper atomic operations and synchronization ensure correctness.
-
-*Note:* A full implementation requires detailed graph data structures and careful memory management.
-
----
-
-## Problem 11: Monte Carlo Simulation for Option Pricing
-
-**Solution:**
-
-```cpp
-// monteCarloKernel.cu
-#include <curand_kernel.h>
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-__global__ void monteCarloKernel(float *results, int numPaths, unsigned long seed) {
-    int idx = threadIdx.x + blockIdx.x * blockDim.x;
-    // Each thread simulates several paths; for simplicity, assume one path per thread.
-    curandState state;
-    curand_init(seed, idx, 0, &state);
-    float payoff = 0.0f;
-    // Simulate a single path.
-    // For simplicity, assume a dummy simulation.
-    float S = 100.0f; // initial price
-    for (int i = 0; i < 100; i++) {
-        float randVal = curand_normal(&state);
-        S *= expf(-0.5f * 0.2f * 0.2f + 0.2f * randVal);
-    }
-    payoff = fmaxf(S - 100.0f, 0.0f);
-    atomicAdd(results, payoff);
-}
-
-int main() {
-    int numPaths = 1 << 20; // 1M paths
-    size_t size = sizeof(float);
-    float h_result = 0.0f;
-    float *d_result;
-    cudaMalloc((void**)&d_result, size);
-    cudaMemcpy(d_result, &h_result, size, cudaMemcpyHostToDevice);
-
-    int threadsPerBlock = 256;
-    int blocksPerGrid = (numPaths + threadsPerBlock - 1) / threadsPerBlock;
-    monteCarloKernel<<<blocksPerGrid, threadsPerBlock>>>(d_result, numPaths, time(NULL));
-    cudaDeviceSynchronize();
-    cudaMemcpy(&h_result, d_result, size, cudaMemcpyDeviceToHost);
-
-    // Average the payoff over the number of paths.
-    float optionPrice = h_result / numPaths;
-    printf("Estimated Option Price: %f\n", optionPrice);
-
-    cudaFree(d_result);
-    return 0;
-}
-```
-
-**Explanation:**  
-- Each thread simulates a Monte Carlo path using cuRAND.
-- The payoff is computed and accumulated atomically.
-- The final option price is the average payoff.
-
----
-
-## Problem 12: Double-Buffered Tiled Matrix Multiplication
-
-**Solution:**
-
-```cpp
-// doubleBufferedMatrixMul.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-#define TILE_WIDTH 16
-
-__global__ void doubleBufferedMatrixMul(const float *A, const float *B, float *C, int width) {
-    __shared__ float tileA0[TILE_WIDTH][TILE_WIDTH];
-    __shared__ float tileA1[TILE_WIDTH][TILE_WIDTH];
-    __shared__ float tileB[TILE_WIDTH][TILE_WIDTH];
-
-    int row = blockIdx.y * TILE_WIDTH + threadIdx.y;
-    int col = blockIdx.x * TILE_WIDTH + threadIdx.x;
-    float value = 0.0f;
-    int numTiles = (width + TILE_WIDTH - 1) / TILE_WIDTH;
-    bool pingPong = true;
-
-    // Preload the first tile
-    if (row < width && threadIdx.x < width - blockIdx.x * TILE_WIDTH)
-        tileA0[threadIdx.y][threadIdx.x] = A[row * width + threadIdx.x + blockIdx.x * TILE_WIDTH];
-    else
-        tileA0[threadIdx.y][threadIdx.x] = 0.0f;
-    
-    if (col < width && threadIdx.y < width - blockIdx.y * TILE_WIDTH)
-        tileB[threadIdx.y][threadIdx.x] = B[(threadIdx.y + blockIdx.y * TILE_WIDTH) * width + col];
-    else
-        tileB[threadIdx.y][threadIdx.x] = 0.0f;
-    
-    __syncthreads();
-
-    for (int t = 1; t < numTiles; t++) {
-        // Start loading next tile into the alternate buffer
-        if (pingPong) {
-            if (row < width && (t * TILE_WIDTH + threadIdx.x) < width)
-                tileA1[threadIdx.y][threadIdx.x] = A[row * width + t * TILE_WIDTH + threadIdx.x];
-            else
-                tileA1[threadIdx.y][threadIdx.x] = 0.0f;
-        } else {
-            if (row < width && (t * TILE_WIDTH + threadIdx.x) < width)
-                tileA0[threadIdx.y][threadIdx.x] = A[row * width + t * TILE_WIDTH + threadIdx.x];
-            else
-                tileA0[threadIdx.y][threadIdx.x] = 0.0f;
-        }
-        __syncthreads();
-        // Compute partial product using the current buffer.
-        for (int k = 0; k < TILE_WIDTH; k++) {
-            if (pingPong)
-                value += tileA0[threadIdx.y][k] * tileB[k][threadIdx.x];
-            else
-                value += tileA1[threadIdx.y][k] * tileB[k][threadIdx.x];
-        }
-        __syncthreads();
-        // Swap buffers
-        pingPong = !pingPong;
-    }
-    if (row < width && col < width)
-        C[row * width + col] = value;
-}
-
-int main() {
-    int width = 64;
-    size_t size = width * width * sizeof(float);
-    float *h_A = (float*)malloc(size);
-    float *h_B = (float*)malloc(size);
-    float *h_C = (float*)malloc(size);
-    for (int i = 0; i < width * width; i++) {
-        h_A[i] = 1.0f;
-        h_B[i] = 1.0f;
-    }
-    float *d_A, *d_B, *d_C;
-    cudaMalloc((void**)&d_A, size);
-    cudaMalloc((void**)&d_B, size);
-    cudaMalloc((void**)&d_C, size);
-    cudaMemcpy(d_A, h_A, size, cudaMemcpyHostToDevice);
-    cudaMemcpy(d_B, h_B, size, cudaMemcpyHostToDevice);
-
-    dim3 threadsPerBlock(TILE_WIDTH, TILE_WIDTH);
-    dim3 blocksPerGrid((width + TILE_WIDTH - 1) / TILE_WIDTH, (width + TILE_WIDTH - 1) / TILE_WIDTH);
-    doubleBufferedMatrixMul<<<blocksPerGrid, threadsPerBlock>>>(d_A, d_B, d_C, width);
-    cudaDeviceSynchronize();
-    cudaMemcpy(h_C, d_C, size, cudaMemcpyDeviceToHost);
-
-    printf("Double-buffered matrix multiplication result (first element): %f\n", h_C[0]);
-
-    cudaFree(d_A);
-    cudaFree(d_B);
-    cudaFree(d_C);
-    free(h_A);
-    free(h_B);
-    free(h_C);
-    return 0;
-}
-```
-
-**Explanation:**  
-- Two buffers (tileA0 and tileA1) are used alternately to overlap loading of the next tile with computation of the current tile.
-- Synchronization via `__syncthreads()` ensures safe switching between buffers.
-
----
-
-## Problem 13: Warp-Level Softmax Computation
-
-**Solution:**
-
-```cpp
-// warpSoftmaxKernel.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-#include <math.h>
-
-__global__ void warpSoftmaxKernel(const float *input, float *output, int vectorSize) {
-    int warpId = threadIdx.x / warpSize;
-    int laneId = threadIdx.x % warpSize;
-    int idx = blockIdx.x * blockDim.x + threadIdx.x;
-    if (idx >= vectorSize) return;
-    
-    // Load input value.
-    float val = input[idx];
-    
-    // First, compute the maximum for numerical stability.
-    for (int offset = warpSize / 2; offset > 0; offset /= 2) {
-        float other = __shfl_down_sync(0xffffffff, val, offset);
-        val = fmaxf(val, other);
-    }
-    float maxVal = val;
-    
-    // Compute exponential.
-    float expVal = expf(input[idx] - maxVal);
-    
-    // Compute the sum of exponentials using warp shuffle.
-    float sumExp = expVal;
-    for (int offset = warpSize / 2; offset > 0; offset /= 2) {
-        sumExp += __shfl_down_sync(0xffffffff, sumExp, offset);
-    }
-    
-    // Broadcast sumExp to all threads in the warp.
-    float softmax = expVal / sumExp;
-    output[idx] = softmax;
-}
-
-int main() {
-    int vectorSize = 1024;
-    size_t size = vectorSize * sizeof(float);
-    float *h_input = (float*)malloc(size);
-    float *h_output = (float*)malloc(size);
-    for (int i = 0; i < vectorSize; i++) {
-        h_input[i] = (float)(rand() % 100) / 100.0f;
-    }
-    
-    float *d_input, *d_output;
-    cudaMalloc((void**)&d_input, size);
-    cudaMalloc((void**)&d_output, size);
-    cudaMemcpy(d_input, h_input, size, cudaMemcpyHostToDevice);
-    
-    int threadsPerBlock = 128;
-    int blocksPerGrid = (vectorSize + threadsPerBlock - 1) / threadsPerBlock;
-    warpSoftmaxKernel<<<blocksPerGrid, threadsPerBlock>>>(d_input, d_output, vectorSize);
-    cudaDeviceSynchronize();
-    cudaMemcpy(h_output, d_output, size, cudaMemcpyDeviceToHost);
-    
-    printf("Warp-level softmax (first 10 elements):\n");
-    for (int i = 0; i < 10; i++) {
-        printf("%f ", h_output[i]);
-    }
-    printf("\n");
-    
-    cudaFree(d_input);
-    cudaFree(d_output);
-    free(h_input);
-    free(h_output);
-    return 0;
-}
-```
-
-**Explanation:**  
-- Uses warp-level primitives to compute maximum and sum reductions within a warp.
-- Computes softmax for each element in the vector.
-
----
-
-## Problem 14: Parallel N-Queens Solver Using Backtracking
-
-**Solution Outline:**
-
-Due to the combinatorial complexity of the N-Queens problem, here is an outline with pseudocode for a parallel solver.
-
-```cpp
-// nQueensKernel.cu (Outline)
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-// Kernel that performs backtracking for N-Queens.
-__global__ void nQueensKernel(int N, int *solutionCount) {
-    // Each thread gets a unique starting row for the first queen.
-    int idx = threadIdx.x + blockIdx.x * blockDim.x;
-    if (idx >= N) return;
-    
-    // Allocate shared memory for board representation.
-    __shared__ int board[32];  // assuming maximum board size <= 32
-    
-    // Initialize board for this thread.
-    // (For simplicity, assume board[i] represents the column position of the queen in row i.)
-    board[0] = idx;
-    
-    // Perform backtracking search for valid queen placements.
-    // Recursive backtracking is difficult in CUDA; an iterative approach with an explicit stack can be used.
-    // Pseudocode:
-    /*
-    int row = 1;
-    while (row >= 0 && row < N) {
-       // Find valid column in current row
-       // If found, place queen and row++
-       // If not found, backtrack: row-- and remove queen
-    }
-    if (row == N) {
-       atomicAdd(solutionCount, 1);
-    }
-    */
-    // (A full implementation would involve complex stack management; refer to research papers on GPU-based N-Queens.)
-}
-
-// Host code would launch the kernel with N threads.
-int main() {
-    int N = 8;
-    int h_solutionCount = 0;
-    int *d_solutionCount;
-    cudaMalloc((void**)&d_solutionCount, sizeof(int));
-    cudaMemcpy(d_solutionCount, &h_solutionCount, sizeof(int), cudaMemcpyHostToDevice);
-    
-    // Launch kernel with N threads.
-    nQueensKernel<<<1, N>>>(N, d_solutionCount);
-    cudaDeviceSynchronize();
-    cudaMemcpy(&h_solutionCount, d_solutionCount, sizeof(int), cudaMemcpyDeviceToHost);
-    
-    printf("Total solutions for %d-Queens: %d\n", N, h_solutionCount);
-    cudaFree(d_solutionCount);
-    return 0;
-}
-```
-
-**Explanation:**  
-- The kernel assigns each thread a unique starting position.
-- Threads perform backtracking search (conceptually outlined here).
-- Atomic operations update the global solution count.
-- A full solution requires careful stack management and recursion simulation.
-
----
-
-## Problem 15: Parallel K-Means Clustering
-
-**Solution:**
-
-```cpp
-// kMeansUpdateKernel.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-__global__ void kMeansUpdateKernel(const float *data, const int *assignments, float *centroids, int numPoints, int numClusters, int dimensions) {
-    int idx = threadIdx.x + blockIdx.x * blockDim.x;
-    if (idx >= numPoints) return;
-    
-    int cluster = assignments[idx];
-    // For each dimension, atomically add the data point value to the corresponding cluster accumulator.
-    for (int d = 0; d < dimensions; d++) {
-        atomicAdd(&centroids[cluster * dimensions + d], data[idx * dimensions + d]);
-    }
-    // Optionally, use another array to count the number of points per cluster and then normalize later.
-}
-
-int main() {
-    // Setup and initialization code would be here.
-    // Assume we have data of size numPoints x dimensions,
-    // assignments array, and centroids array initialized to zero.
-    // Launch kMeansUpdateKernel and then normalize centroids on the host or device.
-    
-    // This problem is more complex and would require a full K-Means iteration implementation.
-    return 0;
-}
-```
-
-**Explanation:**  
-- Each thread processes one data point.
-- Atomic operations accumulate the values into global centroid arrays.
-- Post-processing normalizes the centroids based on the number of assigned points.
-
----
-
-## Problem 16: Sparse PageRank Computation
-
-**Solution:**
-
-```cpp
-// pageRankKernel.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-__global__ void pageRankKernel(const int *rowPtr, const int *colInd, const float *values, float *rank, int numNodes, float damping) {
-    int i = blockIdx.x * blockDim.x + threadIdx.x;
-    if (i < numNodes) {
-        float sum = 0.0f;
-        // Iterate over the outgoing edges of node i.
-        for (int j = rowPtr[i]; j < rowPtr[i + 1]; j++) {
-            int neighbor = colInd[j];
-            sum += values[j] * rank[neighbor];
-        }
-        // Update rank with damping factor.
-        float newRank = (1.0f - damping) + damping * sum;
-        atomicExch(&rank[i], newRank);
-    }
-}
-
-int main() {
-    // Host code to allocate and initialize CSR representation of a graph,
-    // and to run the PageRank kernel.
-    // For brevity, this code is only an outline.
-    return 0;
-}
-```
-
-**Explanation:**  
-- Each thread computes the PageRank value for one node.
-- Atomic operations ensure proper updating.
-- The graph is assumed to be in CSR format.
-
----
-
-## Problem 17: Out-of-Core Matrix Multiplication Using Streams
-
-**Solution Outline:**
-
-Below is an outline of the host code.
-
-```cpp
-// outOfCoreMatMul.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-void outOfCoreMatMul(const float *A, const float *B, float *C, int M, int N, int K) {
-    // Assume matrices A (MxN), B (NxK), and C (MxK) are too large for device memory.
-    // Define tile sizes that fit in device memory.
-    int tileM = 256, tileN = 256, tileK = 256;
-    cudaStream_t stream;
-    cudaStreamCreate(&stream);
-    
-    // Allocate device memory for one tile of A, B, and C.
-    float *d_A, *d_B, *d_C;
-    cudaMalloc((void**)&d_A, tileM * tileN * sizeof(float));
-    cudaMalloc((void**)&d_B, tileN * tileK * sizeof(float));
-    cudaMalloc((void**)&d_C, tileM * tileK * sizeof(float));
-    
-    // Loop over tiles of A and B, launch multiplication kernel asynchronously.
-    for (int i = 0; i < M; i += tileM) {
-        for (int j = 0; j < K; j += tileK) {
-            // Initialize d_C tile to 0.
-            cudaMemsetAsync(d_C, 0, tileM * tileK * sizeof(float), stream);
-            for (int k = 0; k < N; k += tileN) {
-                // Copy sub-tile of A and B to device asynchronously.
-                // Launch kernel for sub-tile multiplication.
-                // Kernel call: matMulKernel<<<...>>>(d_A, d_B, d_C, tile dimensions);
-            }
-            // Copy result tile from d_C to C.
-        }
-    }
-    cudaStreamSynchronize(stream);
-    cudaFree(d_A);
-    cudaFree(d_B);
-    cudaFree(d_C);
-    cudaStreamDestroy(stream);
-}
-
-int main() {
-    // Host code to call outOfCoreMatMul.
-    return 0;
-}
-```
-
-**Explanation:**  
-- The matrices are partitioned into tiles that fit in GPU memory.
-- CUDA streams are used to overlap data transfers with kernel execution.
-- This is a conceptual solution; a full implementation would include the kernel for tiled multiplication.
-
----
-
-## Problem 18: Jacobi Eigenvalue Solver for a Symmetric Matrix
-
-**Solution Outline:**
-
-```cpp
-// jacobiEigenSolver.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-#include <math.h>
-
-__global__ void jacobiEigenSolver(float *matrix, float *eigenvalues, int N, float tolerance) {
-    // This is a simplified outline.
-    // Each thread block could perform a rotation to zero out the largest off-diagonal element.
-    // Use shared memory to load the matrix and perform rotations.
-    // Iterate until the off-diagonal elements are below the tolerance.
-    // For brevity, the detailed implementation is omitted.
-}
-
-int main() {
-    int N = 32;
-    size_t size = N * N * sizeof(float);
-    float *h_matrix = (float*)malloc(size);
-    float *h_eigenvalues = (float*)malloc(N * sizeof(float));
-    // Initialize h_matrix with a symmetric matrix.
-    
-    float *d_matrix, *d_eigenvalues;
-    cudaMalloc((void**)&d_matrix, size);
-    cudaMalloc((void**)&d_eigenvalues, N * sizeof(float));
-    cudaMemcpy(d_matrix, h_matrix, size, cudaMemcpyHostToDevice);
-    
-    jacobiEigenSolver<<<1, 256>>>(d_matrix, d_eigenvalues, N, 1e-5f);
-    cudaDeviceSynchronize();
-    
-    cudaMemcpy(h_eigenvalues, d_eigenvalues, N * sizeof(float), cudaMemcpyDeviceToHost);
-    
-    // Output eigenvalues...
-    
-    cudaFree(d_matrix);
-    cudaFree(d_eigenvalues);
-    free(h_matrix);
-    free(h_eigenvalues);
-    return 0;
-}
-```
-
-**Explanation:**  
-- The kernel performs Jacobi rotations iteratively.
-- Shared memory is used to hold the matrix during rotations.
-- Convergence is checked based on a tolerance value.
-
----
-
-## Problem 19: Cellular Automaton Simulation (Game of Life)
-
-**Solution:**
-
-```cpp
-// gameOfLifeKernel.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-__global__ void gameOfLifeKernel(const int *currentState, int *nextState, int width, int height) {
-    int x = blockIdx.x * blockDim.x + threadIdx.x;
-    int y = blockIdx.y * blockDim.y + threadIdx.y;
-    if (x >= width || y >= height) return;
-
-    int idx = y * width + x;
-    int liveNeighbors = 0;
-    
-    // Iterate over 3x3 neighborhood with periodic boundaries.
-    for (int i = -1; i <= 1; i++) {
-        for (int j = -1; j <= 1; j++) {
-            if (i == 0 && j == 0) continue;
-            int nx = (x + j + width) % width;
-            int ny = (y + i + height) % height;
-            liveNeighbors += currentState[ny * width + nx];
-        }
-    }
-    
-    // Apply Game of Life rules.
-    if (currentState[idx] == 1) {
-        nextState[idx] = (liveNeighbors == 2 || liveNeighbors == 3) ? 1 : 0;
-    } else {
-        nextState[idx] = (liveNeighbors == 3) ? 1 : 0;
-    }
-}
-
-int main() {
-    int width = 512, height = 512;
-    size_t size = width * height * sizeof(int);
-    int *h_current = (int*)malloc(size);
-    int *h_next = (int*)malloc(size);
-    // Initialize h_current with random 0s and 1s.
-    for (int i = 0; i < width * height; i++) {
-        h_current[i] = rand() % 2;
-    }
-    
-    int *d_current, *d_next;
-    cudaMalloc((void**)&d_current, size);
-    cudaMalloc((void**)&d_next, size);
-    cudaMemcpy(d_current, h_current, size, cudaMemcpyHostToDevice);
-    
-    dim3 threadsPerBlock(16, 16);
-    dim3 blocksPerGrid((width + 15) / 16, (height + 15) / 16);
-    gameOfLifeKernel<<<blocksPerGrid, threadsPerBlock>>>(d_current, d_next, width, height);
-    cudaDeviceSynchronize();
-    
-    cudaMemcpy(h_next, d_next, size, cudaMemcpyDeviceToHost);
-    printf("Game of Life simulation step completed.\n");
-    
-    cudaFree(d_current);
-    cudaFree(d_next);
-    free(h_current);
-    free(h_next);
-    return 0;
-}
-```
-
-**Explanation:**  
-- The kernel applies the Game of Life rules using periodic boundaries.
-- Each thread computes the new state for one cell.
-- Shared memory can be added for further optimization if needed.
-
----
-
-## Problem 20: Conjugate Gradient Solver for Sparse Linear Systems
-
-**Solution Outline:**
-
-```cpp
-// conjugateGradientKernel.cu
-#include <cuda_runtime.h>
-#include <stdio.h>
-
-__global__ void conjugateGradientKernel(const float *A, const float *b, float *x, float *r, float *p, float *Ap, int numRows) {
-    int i = blockIdx.x * blockDim.x + threadIdx.x;
-    if (i < numRows) {
-        // Compute Ap = A * p for row i (assuming CSR format or dense matrix for simplicity)
-        float sum = 0.0f;
-        for (int j = 0; j < numRows; j++) {
-            sum += A[i * numRows + j] * p[j];
-        }
-        Ap[i] = sum;
-    }
-    __syncthreads();
-
-    // In a complete implementation, additional kernels would compute dot products,
-    // update x, r, and p vectors, and check for convergence.
-}
-
-int main() {
-    int numRows = 1024;
-    size_t sizeMat = numRows * numRows * sizeof(float);
-    size_t sizeVec = numRows * sizeof(float);
-
-    // Allocate host memory (for dense representation for simplicity)
-    float *h_A = (float*)malloc(sizeMat);
-    float *h_b = (float*)malloc(sizeVec);
-    float *h_x = (float*)malloc(sizeVec);
-    // Initialize h_A, h_b, h_x appropriately.
-
-    float *d_A, *d_b, *d_x, *d_r, *d_p, *d_Ap;
-    cudaMalloc((void**)&d_A, sizeMat);
-    cudaMalloc((void**)&d_b, sizeVec);
-    cudaMalloc((void**)&d_x, sizeVec);
-    cudaMalloc((void**)&d_r, sizeVec);
-    cudaMalloc((void**)&d_p, sizeVec);
-    cudaMalloc((void**)&d_Ap, sizeVec);
-
-    // Copy data from host to device.
-    cudaMemcpy(d_A, h_A, sizeMat, cudaMemcpyHostToDevice);
-    cudaMemcpy(d_b, h_b, sizeVec, cudaMemcpyHostToDevice);
-    cudaMemcpy(d_x, h_x, sizeVec, cudaMemcpyHostToDevice);
-
-    int threadsPerBlock = 256;
-    int blocksPerGrid = (numRows + threadsPerBlock - 1) / threadsPerBlock;
-    conjugateGradientKernel<<<blocksPerGrid, threadsPerBlock>>>(d_A, d_b, d_x, d_r, d_p, d_Ap, numRows);
-    cudaDeviceSynchronize();
-
-    // Further steps would include vector updates and convergence check.
-    // For brevity, only one iteration is shown.
-    
-    cudaFree(d_A);
-    cudaFree(d_b);
-    cudaFree(d_x);
-    cudaFree(d_r);
-    cudaFree(d_p);
-    cudaFree(d_Ap);
-    free(h_A);
-    free(h_b);
-    free(h_x);
-    return 0;
-}
-```
-
-**Explanation:**  
-- The kernel performs one iteration of the conjugate gradient method by computing the matrix-vector product Ap = A*p.
-- A full implementation would include additional kernels for dot products and vector updates.
-- The sparse version would require CSR handling; here, we use a dense matrix for simplicity.
-
----
-
-## References & Further Reading
-
-1. **CUDA C Programming Guide – Memory Model & Atomic Functions**  
-   [CUDA C Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
-
-2. **CUDA C Best Practices Guide**  
-   [CUDA C Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html)
-
-3. **CUDA C Programming Guide – Shared Memory**  
-   [Shared Memory Section](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#shared-memory)
-
-4. **NVIDIA NSight Compute Documentation**  
-   [NVIDIA NSight Compute](https://docs.nvidia.com/nsight-compute/)
-
-5. **"Programming Massively Parallel Processors: A Hands-on Approach" by David B. Kirk and Wen-mei W. Hwu**
-
-6. **NVIDIA Developer Blog**  
-   [NVIDIA Developer Blog](https://developer.nvidia.com/blog/)
-
----
-
-## Conclusion
-
-These 20 hard LeetCode-style CUDA coding problems and their solutions cover advanced topics such as hierarchical reductions, dynamic parallelism, sparse computations, and complex optimization techniques. Work through these challenges, compare your solutions with the provided ones, and use the references for deeper exploration. This exercise is designed to significantly enhance your CUDA programming skills and prepare you for even more complex real-world applications.
-
----
-
-## Next Steps
-
-- **Implement and Optimize:** Test these solutions on your hardware, profile them, and optimize further.
-- **Deepen Your Understanding:** Explore the references for more detailed information.
-- **Build Projects:** Use these techniques in larger projects to solve real-world GPU programming challenges.
-
-Happy coding, and may you continue to push the boundaries of GPU performance!
-```
-
-```markdown
-# Day 14: Hard LeetCode-Style CUDA Coding Problems – Detailed Solutions with Comments
+## 11.  Hard LeetCode-Style CUDA Coding Problems – Detailed Solutions with Comments
 
 Below are detailed solutions for 20 advanced CUDA coding problems with extensive inline comments explaining every step of the code. These solutions build upon topics such as hierarchical reductions, dynamic parallelism, sparse computations, and performance optimizations. Use these annotated solutions as a guide to understand the intricate details of high-performance CUDA programming.
 
@@ -3057,13 +1452,13 @@ int main() {
     free(h_input);
     return 0;
 }
-```
+`
 
 *Detailed Comments Explanation:*  
 - Each thread reads one element, then uses warp shuffles to reduce values within the warp.
 - Partial sums are stored in shared memory and then reduced across warps.
 - The final block-level sum is added atomically to the global result.
-
+```
 ---
 
 ## Problem 2: Parallel Array Maximum Using Atomic Operations
@@ -3136,13 +1531,13 @@ int main() {
     free(h_input);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - The custom `atomicMaxFloat()` function converts floats to ints for atomicCAS operations.
 - Each thread compares its value with the current maximum atomically.
 - The global maximum is stored in `d_result`.
-
+```
 ---
 
 ## Problem 3: Vector Addition with Global Memory Coalescing
@@ -3215,12 +1610,12 @@ int main() {
     free(h_C);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - Each thread calculates its global index to access elements in a contiguous manner, ensuring coalesced memory accesses.
 - The kernel simply adds corresponding elements from vectors A and B and stores the result in C.
-
+```
 ---
 
 ## Problem 4: Matrix Multiplication Using Global Memory
@@ -3295,13 +1690,13 @@ int main() {
     free(h_C);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - This kernel computes each element of the output matrix C as the dot product of a row from A and a column from B.
 - The grid and block are configured to cover the dimensions of the output matrix.
 - Global memory is used for all matrix accesses.
-
+```
 ---
 
 ## Problem 5: Tiled Matrix Multiplication with Shared Memory
@@ -3402,18 +1797,18 @@ int main() {
     free(h_C);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - Matrices are partitioned into tiles of size TILE_WIDTH×TILE_WIDTH.
 - Each tile is loaded into shared memory, and threads synchronize to ensure complete data loading.
 - The kernel computes partial dot products and accumulates the result, then writes the final value back to global memory.
-
+```
 ---
 
 ## Problem 6: Parallel Quicksort with In-Place Partitioning (Outline)
 
-**Solution Outline with Comments:**
+**Solution**
 
 ```cpp
 // quicksortKernel.cu
@@ -3486,13 +1881,13 @@ int main() {
     free(h_data);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - A device partition function rearranges data around a pivot.
 - The quicksort kernel recursively launches child kernels for sorting partitions.
 - `cudaDeviceSynchronize()` ensures that the child kernels finish before proceeding.
-
+```
 ---
 
 ## Problem 7: Convolution Operation with Variable Kernel Size
@@ -3590,18 +1985,18 @@ int main() {
     free(h_output);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - The filter is stored in constant memory for fast broadcast to all threads.
 - Shared memory is allocated dynamically to include halo regions for convolution.
 - Each thread loads a pixel (or sets to zero if out-of-bound), synchronizes, and then computes the convolution.
-
+```
 ---
 
 ## Problem 8: Iterative Jacobi Solver for Poisson Equation
 
-**Solution Outline with Comments:**
+**Solution**
 
 ```cpp
 // jacobiSolverKernel.cu
@@ -3673,13 +2068,13 @@ int main() {
     free(h_output);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - The kernel updates interior grid points by averaging their neighbors.
 - An atomic operation is used to track the maximum error for convergence.
 - Host code manages memory allocation, kernel launch, and result retrieval.
-
+```
 ---
 
 ## Problem 9: Warp-Level Inclusive Scan (Prefix Sum)
@@ -3749,18 +2144,18 @@ int main() {
     free(h_output);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - The kernel performs an inclusive scan within each warp using `__shfl_up_sync` to accumulate values.
 - Each thread adds the value from a thread a fixed offset above if available.
 - The result is stored in the output array.
-
+```
 ---
 
 ## Problem 10: Breadth-First Search (BFS) with Dynamic Parallelism
 
-**Solution Outline with Comments:**
+**Solution**
 
 ```cpp
 // bfsKernel.cu
@@ -3797,14 +2192,14 @@ int main() {
     // 3. Use a loop to continue launching kernels until no new nodes are discovered.
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - The BFS kernel processes nodes in the current frontier.
 - It uses atomic operations to update the visited array and frontier.
 - Dynamic parallelism is used to launch child kernels for subsequent levels.
 - This is a conceptual outline; a full implementation requires detailed data structures.
-
+```
 ---
 
 ## Problem 11: Monte Carlo Simulation for Option Pricing
@@ -3869,13 +2264,13 @@ int main() {
     cudaFree(d_result);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - Each thread simulates one Monte Carlo path using cuRAND.
 - The simulated payoff is accumulated atomically.
 - The final option price is computed by averaging the accumulated payoff.
-
+```
 ---
 
 ## Problem 12: Double-Buffered Tiled Matrix Multiplication
@@ -3994,13 +2389,13 @@ int main() {
     free(h_C);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - Two shared memory buffers are used alternately (double buffering) to overlap computation and data loading.
 - Synchronization with `__syncthreads()` ensures safe switching between buffers.
 - The kernel computes the matrix product and writes the final result.
-
+```
 ---
 
 ## Problem 13: Warp-Level Softmax Computation
@@ -4079,18 +2474,18 @@ int main() {
     free(h_output);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - Uses warp-level primitives to compute the maximum value and the sum of exponentials within each warp.
 - The kernel computes softmax for each element using the stable technique of subtracting the maximum value.
 - Results are stored in the output array.
-
+```
 ---
 
-## Problem 14: Parallel N-Queens Solver Using Backtracking (Outline)
+## Problem 14: Parallel N-Queens Solver Using Backtracking
 
-**Solution Outline with Comments:**
+**Solution**
 
 ```cpp
 // nQueensKernel.cu (Outline)
@@ -4141,13 +2536,13 @@ int main() {
     cudaFree(d_solutionCount);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - Each thread is assigned a unique starting column for the first queen.
 - The pseudocode outlines the backtracking process.
 - Atomic operations update the global solution count for each valid configuration.
-
+```
 ---
 
 ## Problem 15: Parallel K-Means Clustering
@@ -4179,7 +2574,7 @@ int main() {
     // - Launching the kernel and then normalizing centroids based on the number of points per cluster.
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - Each thread processes one data point.
@@ -4219,19 +2614,19 @@ int main() {
     // This is an outline.
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - Each thread computes the new PageRank for one node.
 - The CSR format is used to iterate over neighbors.
 - AtomicExch is used to update the rank.
 - The damping factor is applied in the computation.
-
+```
 ---
 
 ## Problem 17: Out-of-Core Matrix Multiplication Using Streams
 
-**Solution Outline:**
+**Solution**
 
 ```cpp
 // outOfCoreMatMul.cu
@@ -4281,18 +2676,18 @@ int main() {
     // Call outOfCoreMatMul with appropriate dimensions.
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - The host function divides matrices into sub-blocks (tiles) that fit in device memory.
 - CUDA streams are used to overlap data transfers with computation.
 - This is an outline; a full implementation requires kernel definitions and proper indexing.
-
+```
 ---
 
 ## Problem 18: Jacobi Eigenvalue Solver for a Symmetric Matrix
 
-**Solution Outline:**
+**Solution**
 
 ```cpp
 // jacobiEigenSolver.cu
@@ -4335,13 +2730,13 @@ int main() {
     free(h_eigenvalues);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - The kernel would load a symmetric matrix into shared memory.
 - Iterative Jacobi rotations are performed to approximate eigenvalues.
 - The outline indicates key steps; a full solution would involve significant complexity.
-
+```
 ---
 
 ## Problem 19: Cellular Automaton Simulation (Game of Life)
@@ -4413,18 +2808,18 @@ int main() {
     free(h_next);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - Each thread calculates its cell's next state by counting live neighbors.
 - Periodic boundary conditions ensure the grid wraps around.
 - The Game of Life rules are applied, and the result is stored in the next state array.
-
+```
 ---
 
 ## Problem 20: Conjugate Gradient Solver for Sparse Linear Systems
 
-**Solution Outline with Comments:**
+**Solution**
 
 ```cpp
 // conjugateGradientKernel.cu
@@ -4493,50 +2888,18 @@ int main() {
     free(h_x);
     return 0;
 }
-```
+
 
 *Detailed Comments Explanation:*  
 - The kernel computes the matrix-vector product Ap = A * p.
 - Shared memory reduction and further vector updates would be needed for a full conjugate gradient implementation.
 - This outline shows one iteration's key computation.
-
----
-
-## References & Further Reading
-
-1. **CUDA C Programming Guide – Memory Model & Atomic Functions**  
-   [CUDA C Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
-2. **CUDA C Best Practices Guide**  
-   [CUDA C Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html)
-3. **CUDA C Programming Guide – Shared Memory**  
-   [Shared Memory Section](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#shared-memory)
-4. **NVIDIA NSight Compute Documentation**  
-   [NVIDIA NSight Compute](https://docs.nvidia.com/nsight-compute/)
-5. **"Programming Massively Parallel Processors: A Hands-on Approach" by David B. Kirk and Wen-mei W. Hwu**
-6. **NVIDIA Developer Blog**  
-   [NVIDIA Developer Blog](https://developer.nvidia.com/blog/)
-
----
-
-## Conclusion
-
-These 20 hard LeetCode-style CUDA coding problems with detailed commented solutions cover a wide range of advanced topics. Each solution is thoroughly annotated to explain the purpose of each line and the overall algorithmic approach. Work through these problems, study the comments, and use the references provided to deepen your understanding of high-performance GPU programming.
-
----
-
-## Next Steps
-
-- **Implement and Test:** Copy each code solution, compile, and run it on your CUDA-enabled GPU.
-- **Profile and Optimize:** Use profiling tools like NVIDIA NSight Compute to identify and fix performance bottlenecks.
-- **Extend Your Knowledge:** Use the detailed comments as a reference for developing your own complex CUDA applications.
-- **Keep Practicing:** Regularly revisit these problems and attempt variations to further solidify your expertise.
-
-Happy coding, and continue to push the boundaries of GPU performance!
 ```
+---
 
-# Day 14: Hard LeetCode-Style CUDA Coding Problems – Conceptual Diagrams
+## 12.  Hard LeetCode-Style CUDA Coding Problems Solution – Conceptual Diagrams
 
-Below are 20 hard LeetCode-style CUDA coding problems with conceptual diagrams created using Mermaid. Each diagram summarizes the high-level flow of the solution implementation. Detailed comments in the diagrams explain the key steps in the solution.
+Below are the 20 hard LeetCode-style CUDA coding problems with conceptual diagrams created using Mermaid. Each diagram summarizes the high-level flow of the solution implementation. Detailed comments in the diagrams explain the key steps in the solution.
 
 ---
 
@@ -4544,344 +2907,293 @@ Below are 20 hard LeetCode-style CUDA coding problems with conceptual diagrams c
 
 ```mermaid
 flowchart TD
-    A[Each thread loads one element from global memory] --> B[Perform intra-warp reduction using __shfl_down_sync()]
-    B --> C[First thread in each warp writes its partial sum to shared memory]
-    C --> D[Synchronize threads with __syncthreads()]
-    D --> E[First warp performs reduction of warp partial sums from shared memory]
-    E --> F[First thread of block uses atomicAdd() to update the global result]
+    A["Each thread loads one element from global memory"] --> B["Perform intra-warp reduction using __shfl_down_sync()"]
+    B --> C["First thread in each warp writes its partial sum to shared memory"]
+    C --> D["Synchronize threads with __syncthreads()"]
+    D --> E["First warp performs reduction of warp partial sums from shared memory"]
+    E --> F["First thread of block uses atomicAdd() to update the global result"]
+```
+
 Explanation:
 Threads first reduce values within their warp using warp shuffle instructions, then partial sums are combined in shared memory, and finally the block's total is atomically added to the global sum.
 
-Problem 2: Parallel Array Maximum Using Atomic Operations
-mermaid
-Copy
+## Problem 2: Parallel Array Maximum Using Atomic Operations
+
+```mermaid
 flowchart TD
-    A[Each thread reads an element from the input array] --> B[Call atomicMaxFloat()]
-    B --> C[atomicMaxFloat() uses atomicCAS loop to update the global maximum]
+    A["Each thread reads an element from the input array"] --> B["Call atomicMaxFloat()"]
+    B --> C["atomicMaxFloat() uses atomicCAS loop to update the global maximum"]
+```
+
 Explanation:
 Each thread uses a custom atomic maximum function (using atomicCAS) to update a shared global maximum value safely.
 
-Problem 3: Vector Addition with Global Memory Coalescing
-mermaid
-Copy
+## Problem 3: Vector Addition with Global Memory Coalescing
+
+```mermaid
 flowchart TD
-    A[Each thread calculates its global index] --> B[Access elements A[idx] and B[idx] contiguously]
-    B --> C[Compute sum: C[idx] = A[idx] + B[idx]]
-    C --> D[Write result back to global memory]
+    A["Each thread calculates its global index"] --> B["Access elements A[idx] and B[idx] contiguously"]
+    B --> C["Compute sum: C[idx] = A[idx] + B[idx]"]
+    C --> D["Write result back to global memory"]
+```
+
 Explanation:
 Threads compute contiguous memory addresses for efficient coalesced accesses while performing element-wise addition.
 
-Problem 4: Matrix Multiplication Using Global Memory
-mermaid
-Copy
+## Problem 4: Matrix Multiplication Using Global Memory
+
+```mermaid
 flowchart TD
-    A[Each thread calculates its output matrix indices (row, col)]
-    B[Loop over index i (dot product): for i=0 to N-1]
-    C[Accumulate product A[row][i] * B[i][col]]
-    D[Write computed sum to C[row][col] in global memory]
-    
-    A --> B
-    B --> C
-    C --> D
+    A["Each thread calculates its output matrix indices (row, col)"] --> B["Loop over index i (dot product): for i=0 to N-1"]
+    B --> C["Accumulate product A[row][i] * B[i][col]"]
+    C --> D["Write computed sum to C[row][col] in global memory"]
+```
+
 Explanation:
 Each thread computes one element of the result matrix by iterating over a row of A and a column of B (dot product), then writing the result to global memory.
 
-Problem 5: Tiled Matrix Multiplication with Shared Memory
-mermaid
-Copy
+## Problem 5: Tiled Matrix Multiplication with Shared Memory
+
+```mermaid
 flowchart TD
-    A[Divide matrices into tiles of size TILE_WIDTH x TILE_WIDTH]
-    B[Each block loads a tile of matrix A into shared memory (tileA)]
-    C[Each block loads a tile of matrix B into shared memory (tileB)]
-    D[__syncthreads() ensures complete tile loading]
-    E[Threads compute partial dot products using the shared tiles]
-    F[Accumulate partial sums over all tiles]
-    G[Write the final computed element to matrix C in global memory]
-    
-    A --> B
-    A --> C
-    B & C --> D
-    D --> E
-    E --> F
-    F --> G
+    A["Divide matrices into tiles of size TILE_WIDTH x TILE_WIDTH"] --> B["Each block loads a tile of matrix A into shared memory (tileA)"]
+    A --> C["Each block loads a tile of matrix B into shared memory (tileB)"]
+    B & C --> D["__syncthreads() ensures complete tile loading"]
+    D --> E["Threads compute partial dot products using the shared tiles"]
+    E --> F["Accumulate partial sums over all tiles"]
+    F --> G["Write the final computed element to matrix C in global memory"]
+```
+
 Explanation:
 Matrices are partitioned into tiles. Shared memory is used to load each tile; threads synchronize before computing the dot product for each tile, then accumulate the result.
 
-Problem 6: Parallel Quicksort with In-Place Partitioning (Dynamic Parallelism)
-mermaid
-Copy
+## Problem 6: Parallel Quicksort with In-Place Partitioning (Dynamic Parallelism)
+
+```mermaid
 flowchart TD
-    A[Each thread starts with a unique pivot position (dynamic parallelism)]
-    B[Call partition() to rearrange array around the pivot]
-    C[Recursively launch child kernels for left and right partitions]
-    D[Use cudaDeviceSynchronize() to wait for child kernels]
-    E[Continue until base case (small partition) is reached]
-    
-    A --> B
-    B --> C
-    C --> D
-    D --> E
+    A["Each thread starts with a unique pivot position (dynamic parallelism)"] --> B["Call partition() to rearrange array around the pivot"]
+    B --> C["Recursively launch child kernels for left and right partitions"]
+    C --> D["Use cudaDeviceSynchronize() to wait for child kernels"]
+    D --> E["Continue until base case (small partition) is reached"]
+```
+
 Explanation:
 The quicksort algorithm partitions the array and recursively sorts the partitions by launching child kernels, with synchronization after each recursion level.
 
-Problem 7: Convolution Operation with Variable Kernel Size
-mermaid
-Copy
+## Problem 7: Convolution Operation with Variable Kernel Size
+
+```mermaid
 flowchart TD
-    A[Each thread computes its output pixel coordinates (row, col)]
-    B[Load a tile of the image into shared memory (including halo region)]
-    C[__syncthreads() to ensure complete tile load]
-    D[Apply the filter: loop over filter window and compute convolution sum]
-    E[Write the convolution result to the output image]
-    
-    A --> B
-    B --> C
-    C --> D
-    D --> E
+    A["Each thread computes its output pixel coordinates (row, col)"] --> B["Load a tile of the image into shared memory (including halo region)"]
+    B --> C["__syncthreads() to ensure complete tile load"]
+    C --> D["Apply the filter: loop over filter window and compute convolution sum"]
+    D --> E["Write the convolution result to the output image"]
+```
+
 Explanation:
 Threads load a tile (with a halo) into shared memory, synchronize, perform the convolution by iterating over the filter window, then write the result back to global memory.
 
-Problem 8: Iterative Jacobi Solver for Poisson Equation
-mermaid
-Copy
+## Problem 8: Iterative Jacobi Solver for Poisson Equation
+
+```mermaid
 flowchart TD
-    A[Each thread computes indices (x, y) for interior grid points]
-    B[Calculate new value as average of four neighbors]
-    C[Write the new value to the output array]
-    D[Compute error as absolute difference from previous value]
-    E[Use atomic operation to update global error metric]
-    
-    A --> B
-    B --> C
-    C --> D
-    D --> E
+    A["Each thread computes indices (x, y) for interior grid points"] --> B["Calculate new value as average of four neighbors"]
+    B --> C["Write the new value to the output array"]
+    C --> D["Compute error as absolute difference from previous value"]
+    D --> E["Use atomic operation to update global error metric"]
+```
+
 Explanation:
 Each thread updates an interior grid cell by averaging its neighbors, computes the local error, and uses an atomic operation to record the maximum error for convergence checking.
 
-Problem 9: Warp-Level Inclusive Scan (Prefix Sum)
-mermaid
-Copy
+## Problem 9: Warp-Level Inclusive Scan (Prefix Sum)
+
+```mermaid
 flowchart TD
-    A[Each thread loads its element from input]
-    B[For each offset, use __shfl_up_sync to fetch neighbor's value]
-    C[Add neighbor's value if within same warp]
-    D[Store the inclusive scan result in the output array]
-    
-    A --> B
-    B --> C
-    C --> D
+    A["Each thread loads its element from input"] --> B["For each offset, use __shfl_up_sync to fetch neighbor's value"]
+    B --> C["Add neighbor's value if within same warp"]
+    C --> D["Store the inclusive scan result in the output array"]
+```
+
 Explanation:
 Each thread within a warp performs an inclusive scan using warp shuffle operations, accumulating values from threads above it, and writes the result.
 
-Problem 10: Breadth-First Search (BFS) with Dynamic Parallelism
-mermaid
-Copy
+## Problem 10: Breadth-First Search (BFS) with Dynamic Parallelism
+
+```mermaid
 flowchart TD
-    A[Each thread processes a node in the current frontier]
-    B[Check if node is at the current BFS level]
-    C[For each neighbor, check if not visited]
-    D[Update neighbor's level using atomic operations]
-    E[Mark neighbor as visited and add to next frontier]
-    F[Launch child kernel for the next BFS level (dynamic parallelism)]
-    G[Host synchronizes between kernel launches]
-    
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
+    A["Each thread processes a node in the current frontier"] --> B["Check if node is at the current BFS level"]
+    B --> C["For each neighbor, check if not visited"]
+    C --> D["Update neighbor's level using atomic operations"]
+    D --> E["Mark neighbor as visited and add to next frontier"]
+    E --> F["Launch child kernel for the next BFS level (dynamic parallelism)"]
+    F --> G["Host synchronizes between kernel launches"]
+```
+
 Explanation:
 The BFS kernel processes nodes in the current frontier, updates neighbor levels atomically, and uses dynamic parallelism to recursively process subsequent levels.
 
-Problem 11: Monte Carlo Simulation for Option Pricing
-mermaid
-Copy
+## Problem 11: Monte Carlo Simulation for Option Pricing
+
+```mermaid
 flowchart TD
-    A[Each thread initializes its cuRAND state with a unique seed]
-    B[Simulate a path by iteratively updating the stock price]
-    C[Compute the payoff from the simulated path]
-    D[Use atomicAdd() to accumulate the payoff into a global variable]
-    E[After kernel execution, compute average payoff for option price]
-    
-    A --> B
-    B --> C
-    C --> D
-    D --> E
+    A["Each thread initializes its cuRAND state with a unique seed"] --> B["Simulate a path by iteratively updating the stock price"]
+    B --> C["Compute the payoff from the simulated path"]
+    C --> D["Use atomicAdd() to accumulate the payoff into a global variable"]
+    D --> E["After kernel execution, compute average payoff for option price"]
+```
+
 Explanation:
 Each thread simulates a Monte Carlo path using cuRAND, computes the payoff, and atomically adds its result to a global sum, which is then averaged to estimate the option price.
 
-Problem 12: Double-Buffered Tiled Matrix Multiplication
-mermaid
-Copy
+## Problem 12: Double-Buffered Tiled Matrix Multiplication
+
+```mermaid
 flowchart TD
-    A[Divide matrices into tiles]
-    B[Allocate two shared memory buffers for matrix A tiles (tileA0 and tileA1)]
-    C[Load first tile into tileA0 and corresponding tile from matrix B into shared memory]
-    D[__syncthreads() to ensure data is loaded]
-    E[Compute partial product using the current tile]
-    F[While computing, load next tile into alternate buffer]
-    G[Alternate buffers (double buffering) and synchronize]
-    H[Accumulate partial sums and write final result to global memory]
-    
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
+    A["Divide matrices into tiles"] --> B["Allocate two shared memory buffers for matrix A tiles (tileA0 and tileA1)"]
+    B --> C["Load first tile into tileA0 and corresponding tile from matrix B into shared memory"]
+    C --> D["__syncthreads() to ensure data is loaded"]
+    D --> E["Compute partial product using the current tile"]
+    E --> F["While computing, load next tile into alternate buffer"]
+    F --> G["Alternate buffers (double buffering) and synchronize"]
+    G --> H["Accumulate partial sums and write final result to global memory"]
+```
+
 Explanation:
 The kernel uses two shared memory buffers to overlap the loading of new data with computation of the current tile, reducing idle time.
 
-Problem 13: Warp-Level Softmax Computation
-mermaid
-Copy
+## Problem 13: Warp-Level Softmax Computation
+
+```mermaid
 flowchart TD
-    A[Each thread loads its input value]
-    B[Compute the maximum value in the warp using __shfl_down_sync]
-    C[Subtract maximum for numerical stability and compute exponentials]
-    D[Perform warp-level reduction to compute sum of exponentials]
-    E[Each thread computes softmax = exp(value) / sumExp]
-    F[Write softmax result to global memory]
-    
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
+    A["Each thread loads its input value"] --> B["Compute the maximum value in the warp using __shfl_down_sync"]
+    B --> C["Subtract maximum for numerical stability and compute exponentials"]
+    C --> D["Perform warp-level reduction to compute sum of exponentials"]
+    D --> E["Each thread computes softmax = exp(value) / sumExp"]
+    E --> F["Write softmax result to global memory"]
+```
+
 Explanation:
 Within each warp, threads compute the maximum, then calculate exponentials and reduce them to get the sum, finally computing the softmax value in a numerically stable manner.
 
-Problem 14: Parallel N-Queens Solver Using Backtracking (Outline)
-mermaid
-Copy
+## Problem 14: Parallel N-Queens Solver Using Backtracking
+
+```mermaid
 flowchart TD
-    A[Each thread starts with a unique column in the first row]
-    B[Perform iterative backtracking to place queens row by row]
-    C[Check for conflicts with already placed queens]
-    D[If valid, place queen and move to next row; else, backtrack]
-    E[If a solution is found (all queens placed), increment global solution count atomically]
-    
-    A --> B
-    B --> C
-    C --> D
-    D --> E
+    A["Each thread starts with a unique column in the first row"] --> B["Perform iterative backtracking to place queens row by row"]
+    B --> C["Check for conflicts with already placed queens"]
+    C --> D["If valid, place queen and move to next row; else, backtrack"]
+    D --> E["If a solution is found (all queens placed), increment global solution count atomically"]
+```
+
 Explanation:
 Each thread uses backtracking to solve the N-Queens problem from a unique starting column, updating a global counter for each valid solution found.
 
-Problem 15: Parallel K-Means Clustering
-mermaid
-Copy
+## Problem 15: Parallel K-Means Clustering
+
+```mermaid
 flowchart TD
-    A[Each thread processes one data point]
-    B[Read the cluster assignment for the data point]
-    C[Atomically add the data point's feature values to the corresponding centroid accumulator]
-    D[After kernel, perform normalization of centroids based on point counts]
-    
-    A --> B
-    B --> C
-    C --> D
+    A["Each thread processes one data point"] --> B["Read the cluster assignment for the data point"]
+    B --> C["Atomically add the data point's feature values to the corresponding centroid accumulator"]
+    C --> D["After kernel, perform normalization of centroids based on point counts"]
+```
+
 Explanation:
 Threads accumulate data for each cluster using atomic operations. After the kernel, centroids are normalized by dividing by the number of points per cluster.
 
-Problem 16: Sparse PageRank Computation
-mermaid
-Copy
+## Problem 16: Sparse PageRank Computation
+
+```mermaid
 flowchart TD
-    A[Each thread processes one node from the graph (CSR format)]
-    B[Iterate over the node's neighbors using rowPtr and colInd]
-    C[Accumulate contributions weighted by edge values]
-    D[Apply damping factor and update the node's PageRank]
-    E[Use atomicExch() to update the global PageRank array]
-    
-    A --> B
-    B --> C
-    C --> D
-    D --> E
+    A["Each thread processes one node from the graph (CSR format)"] --> B["Iterate over the node's neighbors using rowPtr and colInd"]
+    B --> C["Accumulate contributions weighted by edge values"]
+    C --> D["Apply damping factor and update the node's PageRank"]
+    D --> E["Use atomicExch() to update the global PageRank array"]
+```
+
 Explanation:
 Threads compute the new PageRank for each node by iterating through its neighbors and then update the rank atomically.
 
-Problem 17: Out-of-Core Matrix Multiplication Using Streams
-mermaid
-Copy
+## Problem 17: Out-of-Core Matrix Multiplication Using Streams
+
+```mermaid
 flowchart TD
-    A[Host partitions large matrices into sub-tiles]
-    B[For each tile: asynchronously copy sub-tile from host to device using cudaMemcpyAsync()]
-    C[Launch kernel on the sub-tile]
-    D[Asynchronously copy the computed result tile from device to host]
-    E[Use CUDA streams to overlap data transfers with kernel execution]
-    
-    A --> B
-    B --> C
-    C --> D
-    D --> E
+    A["Host partitions large matrices into sub-tiles"] --> B["For each tile: asynchronously copy sub-tile from host to device using cudaMemcpyAsync()"]
+    B --> C["Launch kernel on the sub-tile"]
+    C --> D["Asynchronously copy the computed result tile from device to host"]
+    D --> E["Use CUDA streams to overlap data transfers with kernel execution"]
+```
+
 Explanation:
 The host divides matrices into tiles that fit in GPU memory. Data transfers and kernel executions are overlapped using CUDA streams, enabling out-of-core computation.
 
-Problem 18: Jacobi Eigenvalue Solver for a Symmetric Matrix (Outline)
-mermaid
-Copy
+## Problem 18: Jacobi Eigenvalue Solver for a Symmetric Matrix
+
+```mermaid
 flowchart TD
-    A[Load symmetric matrix into shared memory]
-    B[Identify the largest off-diagonal element]
-    C[Perform a Jacobi rotation to zero out that element]
-    D[Update the matrix and track convergence]
-    E[Iterate until off-diagonals are below tolerance]
-    F[Extract eigenvalues from the diagonal of the converged matrix]
-    
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
+    A["Load symmetric matrix into shared memory"] --> B["Identify the largest off-diagonal element"]
+    B --> C["Perform a Jacobi rotation to zero out that element"]
+    C --> D["Update the matrix and track convergence"]
+    D --> E["Iterate until off-diagonals are below tolerance"]
+    E --> F["Extract eigenvalues from the diagonal of the converged matrix"]
+```
+
 Explanation:
 This outline shows the iterative process of the Jacobi method, where the matrix is updated in shared memory until convergence is reached, and eigenvalues are then extracted.
 
-Problem 19: Cellular Automaton Simulation (Game of Life)
-mermaid
-Copy
+## Problem 19: Cellular Automaton Simulation (Game of Life)
+
+```mermaid
 flowchart TD
-    A[Each thread computes its cell's coordinates (x, y)]
-    B[Count live neighbors using periodic boundary conditions]
-    C[Apply Game of Life rules to determine the next state]
-    D[Write the updated state to the output grid]
-    
-    A --> B
-    B --> C
-    C --> D
+    A["Each thread computes its cell's coordinates (x, y)"] --> B["Count live neighbors using periodic boundary conditions"]
+    B --> C["Apply Game of Life rules to determine the next state"]
+    C --> D["Write the updated state to the output grid"]
+```
+
 Explanation:
 Each thread processes one cell by counting neighbors, applying the Game of Life rules, and updating the cell state accordingly.
 
-Problem 20: Conjugate Gradient Solver for Sparse Linear Systems (Outline)
-mermaid
-Copy
+## Problem 20: Conjugate Gradient Solver for Sparse Linear Systems
+
+```mermaid
 flowchart TD
-    A[Each thread computes its component of Ap = A * p]
-    B[Perform a shared memory reduction to compute the dot product of p and Ap]
-    C[Update the solution vector x, residual r, and direction p]
-    D[Check for convergence; if not converged, iterate]
-    
-    A --> B
-    B --> C
-    C --> D
+    A["Each thread computes its component of Ap = A * p"] --> B["Perform a shared memory reduction to compute the dot product of p and Ap"]
+    B --> C["Update the solution vector x, residual r, and direction p"]
+    C --> D["Check for convergence; if not converged, iterate"]
+```
+
 Explanation:
 The kernel computes the matrix-vector product and uses reductions and vector updates to perform one iteration of the conjugate gradient method. Further iterations would update vectors and check for convergence.
 
-References & Further Reading
-CUDA C Programming Guide – Memory Model & Atomic Functions
-CUDA C Programming Guide
-CUDA C Best Practices Guide
-CUDA C Best Practices Guide
-CUDA C Programming Guide – Shared Memory
-Shared Memory Section
-NVIDIA NSight Compute Documentation
-NVIDIA NSight Compute
-"Programming Massively Parallel Processors: A Hands-on Approach" by David B. Kirk and Wen-mei W. Hwu
-NVIDIA Developer Blog
-NVIDIA Developer Blog
-Conclusion
-These 20 conceptual diagrams illustrate the high-level workflows for advanced CUDA coding problems. They provide a visual summary of each solution’s implementation—from memory management and synchronization to complex algorithms like quicksort, Monte Carlo simulations, and conjugate gradient solvers. Use these diagrams alongside the detailed code solutions to deepen your understanding of GPU programming concepts.
 
-Happy coding, and continue to push the boundaries of CUDA performance!
 
+
+## 13. References & Further Reading
+
+1. **CUDA C Programming Guide – Introduction & Memory Model**  
+   [CUDA C Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)  
+   Provides a comprehensive overview of CUDA concepts including memory types and usage.
+
+2. **CUDA C Best Practices Guide**  
+   [CUDA C Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html)  
+   Detailed best practices for optimizing memory usage and avoiding common pitfalls.
+
+3. **Shared Memory Bank Conflicts**  
+   [CUDA Shared Memory Bank Conflicts](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#shared-memory)  
+   Specific details on optimizing shared memory accesses and avoiding bank conflicts.
+
+4. **NVIDIA Developer Blog**  
+   [NVIDIA Developer Blog](https://developer.nvidia.com/blog/)  
+   Articles and case studies on GPU programming techniques and optimization strategies.
+
+5. **"Programming Massively Parallel Processors: A Hands-on Approach" by David B. Kirk and Wen-mei W. Hwu**  
+   A comprehensive textbook on GPU architecture and programming techniques.
+
+---
+
+## 14. Conclusion
+Day 14 serves as a critical progress checkpoint to consolidate your learning from Days 1–13. In this lesson, you:
+- Reviewed the differences between global and shared memory, including their respective roles and optimization techniques.
+- Answered quiz questions to verify your understanding.
+- Compiled a detailed “lessons learned” list to avoid repeated mistakes.
+- Identified common debugging pitfalls and strategies for future development.
