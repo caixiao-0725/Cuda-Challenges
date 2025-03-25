@@ -5,19 +5,19 @@ In this final checkpoint of our introductory CUDA series (Days 1–13), we will 
 ---
 
 ## Table of Contents
-2. [Overview](#1-overview)  
-3. [Recap: Global vs. Shared Memory](#2-recap-global-vs-shared-memory)  
-4. [Quiz: Check Your Knowledge](#3-quiz-check-your-knowledge)  
-5. [Creating a “Lessons Learned” List](#4-creating-a-lessons-learned-list)  
-6. [Common Debugging Pitfalls](#5-common-debugging-pitfalls)  
-7. [Conceptual Diagrams](#6-conceptual-diagrams)  
-8. [Questions and Answers.](#7-questions-and-answers)  
-9. [Additional 20 Advanced Quiz Questions and Answers (Days 1–14)](#8-additional-20-advanced-quiz-questions-and-answers-days-1–14)  
-10. [Coding Challenges](#9-coding-challenges)  
-11. [Hard LeetCode-Style CUDA Coding Problems](#10-hard-leetcode-style-cuda-coding-problems)  
-12. [Hard LeetCode-Style CUDA Coding Problems Solution – Conceptual Diagrams](#11-hard-leetcode-style-cuda-coding-problems-solution--conceptual-diagrams)  
-13. [References & Further Reading](#12-references--further-reading)  
-14. [Conclusion](#13-conclusion)  
+1. [Overview](#1-overview)  
+2. [Recap: Global vs. Shared Memory](#2-recap-global-vs-shared-memory)  
+3. [Quiz: Check Your Knowledge](#3-quiz-check-your-knowledge)  
+4. [Creating a “Lessons Learned” List](#4-creating-a-lessons-learned-list)  
+5. [Common Debugging Pitfalls](#5-common-debugging-pitfalls)  
+6. [Conceptual Diagrams](#6-conceptual-diagrams)  
+7. [Questions and Answers.](#7-questions-and-answers)  
+8. [Additional 20 Advanced Quiz Questions and Answers (Days 1–14)](#8-additional-20-advanced-quiz-questions-and-answers-days-1–14)  
+9. [Coding Challenges](#9-coding-challenges)  
+10. [Hard LeetCode-Style CUDA Coding Problems](#10-hard-leetcode-style-cuda-coding-problems)  
+11. [Hard LeetCode-Style CUDA Coding Problems Solution – Conceptual Diagrams](#11-hard-leetcode-style-cuda-coding-problems-solution--conceptual-diagrams)  
+12. [References & Further Reading](#12-references--further-reading)  
+13. [Conclusion](#13-conclusion)  
 
 ---
 
