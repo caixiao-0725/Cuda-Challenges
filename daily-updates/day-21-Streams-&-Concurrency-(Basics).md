@@ -1,4 +1,3 @@
-```markdown
 # Day 20: Streams & Concurrency (Basics)
 
 In this capstone lesson, we dive into the basics of **CUDA streams** and **concurrency**. CUDA streams enable **asynchronous execution** of kernels and memory operations, allowing multiple kernels to run concurrently (overlap), which can significantly improve performance when properly managed. In contrast, the default stream is blocking—meaning operations in the default stream execute sequentially. 
@@ -7,10 +6,6 @@ This lesson covers:
 - An explanation of CUDA streams and how they enable concurrency.
 - How to launch kernels in separate streams.
 - Measuring overlap and concurrency with CUDA events.
-- Common debugging pitfalls related to streams.
-- Detailed code examples with extensive inline comments.
-- Conceptual diagrams to illustrate the workflows.
-- Precise references for further reading.
 
 ---
 
@@ -22,11 +17,10 @@ This lesson covers:
 4. [Practical Exercise: Launching Kernels in Different Streams](#4-practical-exercise-launching-kernels-in-different-streams)  
     - [a) Sample Kernel Code](#a-sample-kernel-code)  
     - [b) Host Code with Stream Management and Timing](#b-host-code-with-stream-management-and-timing)  
-5. [Common Debugging Pitfalls](#5-common-debugging-pitfalls)  
-6. [Conceptual Diagrams](#6-conceptual-diagrams)  
-7. [References & Further Reading](#7-references--further-reading)  
-8. [Conclusion](#8-conclusion)  
-9. [Next Steps](#9-next-steps)  
+5. [Conceptual Diagrams](#5-conceptual-diagrams)  
+6. [References & Further Reading](#6-references--further-reading)  
+7. [Conclusion](#7-conclusion)  
+8. [Next Steps](#8-next-steps)  
 
 ---
 
@@ -231,7 +225,7 @@ int main() {
 
 ---
 
-## 6. Conceptual Diagrams
+## 5. Conceptual Diagrams
 
 ### Diagram 1: Streams and Concurrency Overview
 ```mermaid
@@ -283,7 +277,7 @@ sequenceDiagram
 
 ---
 
-## 7. References & Further Reading
+## 6. References & Further Reading
 
 1. **[CUDA C Programming Guide – Streams](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#streams)**  
    Detailed documentation on CUDA streams.
@@ -296,7 +290,7 @@ sequenceDiagram
 
 ---
 
-## 8. Conclusion
+## 7. Conclusion
 
 In Day 20, you learned the fundamentals of **CUDA streams and concurrency**:
 - **Multiple streams allow concurrent kernel execution**, improving performance.
@@ -308,12 +302,11 @@ By understanding and applying these concepts, you can **optimize your CUDA appli
 
 ---
 
-## 9. Next Steps
+## 8. Next Steps
 
 - **Experiment:** Modify the host code to launch more kernels concurrently using multiple streams.
 - **Profile:** Use NVIDIA NSight Compute and Nsight Systems to monitor stream performance.
 - **Optimize:** Explore overlapping memory transfers with kernel execution in different streams.
 - **Expand:** Incorporate these patterns into larger, more complex applications such as real-time image processing pipelines.
 
-Happy CUDA coding, and keep exploring the power of concurrency!
 ```
