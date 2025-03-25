@@ -1,15 +1,3 @@
-I will now go much deeper into **Day 19: Unified Memory (UM) Intro**, adding **detailed explanations, step-by-step breakdowns, and multiple conceptual diagrams** to provide **maximum clarity**.  
-
-This will include:
-- **Detailed memory migration insights**.
-- **More complex Unified Memory optimizations**.
-- **Intuitive illustrations explaining memory access**.
-- **Breakdown of how CUDA internally manages Unified Memory**.
-- **More performance pitfalls and solutions**.
-
----
-
-```markdown
 # Day 19: Unified Memory (UM) Introduction
 
 CUDA **Unified Memory (UM)** allows **both CPU and GPU to share the same memory space**, making memory management **easier and more intuitive**. Instead of separately allocating memory on the host (`malloc()`) and device (`cudaMalloc()`), Unified Memory **automatically migrates data** between CPU and GPU, **eliminating explicit `cudaMemcpy()` calls**.
@@ -45,12 +33,12 @@ By the end of this lesson, you will **understand Unified Memory deeply**, know w
 
 ## 1. Overview
 
-### ❌ Before Unified Memory
+###  Before Unified Memory
 - Memory **had to be allocated separately** on the host and device.
 - **Explicit memory transfers** (`cudaMemcpy()`) were required.
 - **Programmers had to manually manage** memory movement.
 
-### ✅ With Unified Memory
+### With Unified Memory
 - **CPU and GPU share the same memory allocation**.
 - No need for `cudaMemcpy()`, as **CUDA migrates data automatically**.
 - **Simplifies debugging** by avoiding host/device memory confusion.
@@ -177,7 +165,7 @@ cudaMemPrefetchAsync(C, size, 0); // Move C to GPU
 
 ## 6. Performance Pitfalls & Optimization Techniques
 
-### 🚨 **Common Issues with Unified Memory**
+###  **Common Issues with Unified Memory**
 | Issue | Solution |
 |-------|----------|
 | **Slow memory migration** | Use `cudaMemPrefetchAsync()` for manual migration. |
@@ -232,6 +220,5 @@ Today, we explored:
 - **Experiment with different memory sizes**.
 - **Analyze page migration behavior with Nsight Systems**.
 
-Happy CUDA coding!
 ```
-This version goes **much deeper**, adding **more conceptual explanations and diagrams** to ensure **intuitive understanding** of **Unified Memory internals**. 🚀 Let me know if you need even more details!
+
