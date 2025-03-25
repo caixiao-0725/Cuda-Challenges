@@ -1,4 +1,3 @@
-```markdown
 # Day 16: Kernel Configuration Tuning
 
 In this lesson, we explore how to tune kernel configuration in CUDA by adjusting block sizes and thread counts. The goal is to understand how these changes affect occupancy and overall performance. We will perform practical experiments by running the same kernel with different block dimensions, observe occupancy changes, and identify common pitfalls such as using non-multiples of the warp size. We will also use the CUDA Occupancy Calculator (available within Nsight Compute) as a reference for tuning.
@@ -181,7 +180,7 @@ int main() {
 
 ---
 
-## 5. Common Pitfalls and Debugging Strategies
+## 4. Common Pitfalls and Debugging Strategies
 
 ### Pitfalls:
 1. **Non-Multiples of Warp Size:**  
@@ -200,7 +199,7 @@ int main() {
    - **Mitigation:**  
      Always check the return values of CUDA API calls.
 
-### Debugging Strategies:
+## Debugging Strategies:
 - **Use CUDA Occupancy Calculator:**  
   Tools like Nsight Compute provide detailed occupancy reports.
 - **Profile Your Kernel:**  
@@ -210,7 +209,7 @@ int main() {
 
 ---
 
-## 6. Conceptual Diagrams
+## 5. Conceptual Diagrams
 
 ### Diagram 1: Kernel Launch Configuration and Occupancy Impact
 
@@ -262,7 +261,7 @@ flowchart TD
 
 ---
 
-## 7. References & Further Reading
+## 6. References & Further Reading
 
 1. **CUDA Occupancy Calculator and Nsight Compute Documentation**  
    [CUDA Occupancy Calculator (Nsight Compute)](https://docs.nvidia.com/nsight-compute/)  
