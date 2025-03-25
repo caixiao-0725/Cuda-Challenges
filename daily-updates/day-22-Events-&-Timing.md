@@ -1,32 +1,22 @@
-```markdown
 # Day 21: Events & Timing
 
-CUDA kernels execute asynchronously, so accurate timing and profiling of GPU operations require specialized tools. **CUDA events** are one such tool that allow you to mark specific points in a CUDA stream and measure the elapsed time between these points. In this lesson, we will explore CUDA events in depth—how they work, how to use them correctly, and how to avoid common pitfalls that lead to skewed timing measurements.
+CUDA kernels execute asynchronously, so accurate timing and profiling of GPU operations require specialized tools. **CUDA events** are one such tool that allows you to mark specific points in a CUDA stream and measure the elapsed time between these points. In this lesson, we will explore CUDA events in depth—how they work, how to use them correctly, and how to avoid common pitfalls that lead to skewed timing measurements.
 
-We will cover:
-- An in-depth explanation of CUDA events and their use in timing GPU operations.
-- Step-by-step code examples with extensive inline comments.
-- Multiple conceptual diagrams that explain the flow and interaction of events, kernels, and synchronization.
-- Common debugging pitfalls and best practices.
-- Precise reference links to the CUDA documentation and related resources.
-
-By the end of this lesson, you will have a comprehensive understanding of how to use CUDA events for precise kernel timing and how to incorporate robust synchronization into your CUDA programs.
 
 ---
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Understanding CUDA Events](#understanding-cuda-events)
-3. [Key Functions for Timing](#key-functions-for-timing)
-4. [Practical Exercise: Vector Addition with Timing](#practical-exercise-vector-addition-with-timing)
+1. [Overview](#1-overview)
+2. [Understanding CUDA Events](#2-understanding-cuda-events)
+3. [Key Functions for Timing](#3-key-functions-for-timing)
+4. [Practical Exercise: Vector Addition with Timing](#4-practical-exercise-vector-addition-with-timing)
     - [a) Kernel Code](#a-kernel-code)
     - [b) Host Code with Detailed Error Checking and Timing](#b-host-code-with-detailed-error-checking-and-timing)
-5. [Common Debugging Pitfalls](#common-debugging-pitfalls)
-6. [Conceptual Diagrams](#conceptual-diagrams)
-7. [References & Further Reading](#references--further-reading)
-8. [Conclusion](#conclusion)
-9. [Next Steps](#next-steps)
+5. [Conceptual Diagrams](#5-conceptual-diagrams)
+6. [References & Further Reading](#6-references--further-reading)
+7. [Conclusion](#7-conclusion)
+8. [Next Steps](#8-next-steps)
 
 ---
 
@@ -242,7 +232,7 @@ int main() {
 
 ---
 
-## 7. Conceptual Diagrams
+## 5. Conceptual Diagrams
 
 ### Diagram 1: CUDA Event Timing Workflow
 
@@ -299,7 +289,7 @@ sequenceDiagram
 
 ---
 
-## 8. References & Further Reading
+## 6. References & Further Reading
 
 1. **CUDA C Programming Guide – Events**  
    [CUDA Events Documentation](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#events)  
@@ -321,7 +311,7 @@ sequenceDiagram
 
 ---
 
-## 9. Conclusion
+## 7. Conclusion
 
 Today, we have:
 - **Explored CUDA events** for precise kernel timing.
@@ -334,7 +324,7 @@ This lesson ensures you can accurately measure and optimize kernel performance, 
 
 ---
 
-## 10. Next Steps
+## 8. Next Steps
 
 - **Experiment Further:**  
   Try measuring the execution time of different kernels (e.g., matrix multiplication, convolution) using CUDA events.
@@ -345,5 +335,4 @@ This lesson ensures you can accurately measure and optimize kernel performance, 
 - **Extend Your Application:**  
   Incorporate robust timing and synchronization in larger projects to continually improve performance and reliability.
 
-Happy CUDA coding, and may you continue to push the limits of GPU performance!
 ```
