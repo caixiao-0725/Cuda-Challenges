@@ -1,7 +1,6 @@
-```markdown
 # Day 20: Capstone Project #1 – Image Convolution Pipeline (Edge Detection on GPU)
 
-### 🚀 **Introduction**
+###  **Introduction**
 Today's **Capstone Project** is a deep dive into **Image Processing using CUDA**. We will implement **2D Convolution** on a GPU, a fundamental operation in:
 - **Edge detection (e.g., Sobel filter)**
 - **Blurring (Gaussian filter)**
@@ -11,14 +10,14 @@ Today's **Capstone Project** is a deep dive into **Image Processing using CUDA**
 CUDA’s **parallel processing** makes image convolution **significantly faster** than CPU-based implementations. By distributing pixel computations across thousands of GPU threads, we can **greatly accelerate image filtering tasks**.
 
 ---
-## 📌 **Objectives**
+##  **Objectives**
 - Implement **2D image convolution using CUDA**.
 - Perform **edge detection using the Sobel filter**.
 - Optimize kernel execution for **better performance**.
 - Visualize **performance improvements over CPU-based convolution**.
 
 ---
-## 📜 **Table of Contents**
+##  **Table of Contents**
 1. [What is Image Convolution?](#1-what-is-image-convolution)  
 2. [Understanding the Sobel Edge Detection Algorithm](#2-understanding-the-sobel-edge-detection-algorithm)  
 3. [Parallelizing 2D Convolution on a GPU](#3-parallelizing-2d-convolution-on-a-gpu)  
@@ -32,7 +31,7 @@ CUDA’s **parallel processing** makes image convolution **significantly faster*
 
 ---
 
-## 1️⃣ **What is Image Convolution?**
+## 1. **What is Image Convolution?**
 Image **convolution** is a fundamental operation in **computer vision** where an image is filtered using a **kernel (filter)**.
 
 🔹 **Mathematical Formula**:
@@ -40,20 +39,19 @@ Image **convolution** is a fundamental operation in **computer vision** where an
 G(x,y) = \sum_{i=-k}^{k} \sum_{j=-k}^{k} I(x+i, y+j) \cdot K(i,j)
 \]
 Where:
-- **\( I(x,y) \)** is the input image.
-- **\( K(i,j) \)** is the kernel.
-- **\( G(x,y) \)** is the output image.
+- \( I(x,y) \) is the input image.
+- \( K(i,j) \) is the kernel.
+- \( G(x,y) \) is the output image.
 
 🔹 **Example Kernels**:
-| Filter Type  | Kernel |
-|-------------|--------|
+| Filter Type             | Kernel                                      |
+|-------------------------|---------------------------------------------|
 | **Edge Detection (Sobel X)** | \(\begin{bmatrix} -1 & 0 & 1 \\ -2 & 0 & 2 \\ -1 & 0 & 1 \end{bmatrix}\) |
 | **Edge Detection (Sobel Y)** | \(\begin{bmatrix} -1 & -2 & -1 \\ 0 & 0 & 0 \\ 1 & 2 & 1 \end{bmatrix}\) |
-| **Gaussian Blur** | \(\begin{bmatrix} 1 & 2 & 1 \\ 2 & 4 & 2 \\ 1 & 2 & 1 \end{bmatrix} / 16\) |
-
+| **Gaussian Blur**       | \(\begin{bmatrix} 1 & 2 & 1 \\ 2 & 4 & 2 \\ 1 & 2 & 1 \end{bmatrix} / 16\) |
 ---
 
-## 2️⃣ **Understanding the Sobel Edge Detection Algorithm**
+## 2. **Understanding the Sobel Edge Detection Algorithm**
 🔹 **Why Sobel?**  
 The **Sobel filter** is used for **edge detection** by computing the **gradient** of an image. It detects edges **by measuring intensity changes** in both **X and Y directions**.
 
@@ -67,7 +65,7 @@ The **Sobel filter** is used for **edge detection** by computing the **gradient*
 
 ---
 
-## 3️⃣ **Parallelizing 2D Convolution on a GPU**
+## 3. **Parallelizing 2D Convolution on a GPU**
 In CUDA, we use **one thread per pixel** for parallel computation.
 
 🔹 **Threading Strategy**:
@@ -77,8 +75,8 @@ In CUDA, we use **one thread per pixel** for parallel computation.
 
 ---
 
-## 4️⃣ **CUDA Implementation of 2D Convolution**
-### **🔹 Step 1: CPU Implementation**
+## 4. **CUDA Implementation of 2D Convolution**
+### ** Step 1: CPU Implementation**
 First, let’s implement a **CPU-based convolution** for comparison.
 ```cpp
 // CPU-based 2D Convolution
@@ -102,7 +100,7 @@ void cpuConvolve(float *image, float *output, float *kernel, int width, int heig
 
 ---
 
-### **🔹 Step 2: CUDA Implementation**
+### ** Step 2: CUDA Implementation**
 ```cpp
 // CUDA Kernel for 2D Convolution
 __global__ void cudaConvolve(float *image, float *output, float *kernel, int width, int height, int kernelSize) {
@@ -161,14 +159,14 @@ int main() {
 
 ---
 
-## 5️⃣ **Performance Comparison: CPU vs GPU**
+## 5. **Performance Comparison: CPU vs GPU**
 | **Implementation** | **Execution Time** |
 |--------------------|--------------------|
 | **CPU (single-threaded)** | **2000ms** |
 | **GPU (CUDA)** | **50ms** |
 
 ---
-## 6️⃣ **Common Debugging Pitfalls**
+## 6. **Common Debugging Pitfalls**
 | **Error** | **Fix** |
 |-----------|--------|
 | Memory misalignment | Use `cudaMallocPitch()` for proper memory alignment. |
@@ -176,7 +174,7 @@ int main() {
 | Kernel launch failure | Always check `cudaGetLastError()`. |
 
 ---
-## 7️⃣ **Conceptual Diagrams**
+## 7. **Conceptual Diagrams**
 ```mermaid
 flowchart TD;
     A[Input Image] --> B[Convolution Kernel]
@@ -185,23 +183,21 @@ flowchart TD;
 ```
 
 ---
-## 8️⃣ **References & Further Reading**
+## 8. **References & Further Reading**
 1. **[CUDA C Programming Guide – Image Processing](https://developer.nvidia.com/blog/easy-introduction-cuda-c-and-c/)**
 2. **[CUDA Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html)**
 
 ---
-## 🔥 **Conclusion**
+## 9. **Conclusion**
 Today, we:
-✅ Implemented **2D convolution using CUDA**  
-✅ Performed **Sobel edge detection**  
-✅ Optimized execution with **shared memory**  
-✅ Achieved **massive speedups over CPU execution**  
+1. Implemented **2D convolution using CUDA**  
+2. Performed **Sobel edge detection**  
+3. Optimized execution with **shared memory**  
+4. Achieved **massive speedups over CPU execution**  
 
 ---
-## 🚀 **Next Steps**
+## 10. **Next Steps**
 - Implement **Gaussian blurring** using CUDA.
 - Use **shared memory optimizations**.
 
-Happy CUDA coding! 🎯
 ```
-This version provides **detailed explanations, step-by-step CUDA implementation, and conceptual diagrams** for deeper understanding. 🚀 Let me know if you need more optimizations!
