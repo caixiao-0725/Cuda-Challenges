@@ -1,19 +1,7 @@
-```markdown
 # Day 23: Asynchronous Memory Copy
 
 In this lesson, we explore **asynchronous memory copy** in CUDA. Asynchronous transfers allow data to be copied between host and device concurrently with kernel execution, thus overlapping communication and computation to improve overall performance. To achieve truly asynchronous transfers, using **pinned (page-locked) host memory** is essential.
 
-This lesson will cover:
-- What asynchronous memory copy is and why it is useful.
-- How to allocate pinned host memory.
-- How to perform asynchronous memory transfers with `cudaMemcpyAsync()` and streams.
-- Practical examples of overlapping data transfers with kernel execution.
-- Common debugging pitfalls and best practices.
-- Detailed code examples with extensive inline comments.
-- Conceptual diagrams that illustrate the workflow.
-- Precise references for further reading.
-
-By the end of this lesson, you will have a comprehensive understanding of asynchronous memory copy and be able to apply it in your CUDA applications to improve performance.
 
 ---
 
@@ -26,11 +14,10 @@ By the end of this lesson, you will have a comprehensive understanding of asynch
 5. [Practical Exercise: Asynchronous Data Transfer with Kernel Overlap](#5-practical-exercise-asynchronous-data-transfer-with-kernel-overlap)  
     - [a) Sample Kernel Code](#a-sample-kernel-code)  
     - [b) Host Code with Pinned Memory and Streams](#b-host-code-with-pinned-memory-and-streams)  
-6. [Common Debugging Pitfalls](#6-common-debugging-pitfalls)  
-7. [Conceptual Diagrams](#7-conceptual-diagrams)  
-8. [References & Further Reading](#8-references--further-reading)  
-9. [Conclusion](#9-conclusion)  
-10. [Next Steps](#10-next-steps)  
+6. [Conceptual Diagrams](#6-conceptual-diagrams)  
+7. [References & Further Reading](#7-references--further-reading)  
+8. [Conclusion](#8-conclusion)  
+9. [Next Steps](#9-next-steps)  
 
 ---
 
@@ -347,5 +334,4 @@ With these techniques, you can now optimize your CUDA applications by overlappin
 - **Expand:**  
   Integrate asynchronous memory copy into larger projects like image processing or deep learning inference pipelines.
 
-Happy CUDA coding, and continue to explore and optimize asynchronous operations!
 ```
