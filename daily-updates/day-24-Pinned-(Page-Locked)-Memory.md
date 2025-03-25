@@ -1,17 +1,4 @@
-```markdown
 # Day 24: Pinned (Page-Locked) Memory
-
-In this lesson, we explore the concept of **Pinned (Page-Locked) Memory** in CUDA, its advantages and disadvantages, and how it compares to regular pageable host memory. Pinned memory is allocated using functions like `cudaMallocHost()` and offers **faster data transfer rates** between the host and device because the memory is not swappable by the operating system. However, excessive use of pinned memory can have a negative impact on overall system performance.
-
-This lesson covers:
-- What pinned memory is and how it works.
-- The benefits of using pinned memory for asynchronous memory transfers.
-- A detailed comparison between pinned and pageable memory transfers.
-- A practical exercise with code examples, including extensive inline comments.
-- Common debugging pitfalls and best practices.
-- Conceptual diagrams that illustrate the differences and workflows.
-- Precise references for further reading.
-
 ---
 
 ## Table of Contents
@@ -24,11 +11,10 @@ This lesson covers:
     - [a) Code Example Using Pageable Memory](#a-code-example-using-pageable-memory)  
     - [b) Code Example Using Pinned Memory](#b-code-example-using-pinned-memory)  
     - [c) Timing and Performance Comparison](#c-timing-and-performance-comparison)  
-6. [Common Debugging Pitfalls and Best Practices](#6-common-debugging-pitfalls-and-best-practices)  
-7. [Conceptual Diagrams](#7-conceptual-diagrams)  
-8. [References & Further Reading](#8-references--further-reading)  
-9. [Conclusion](#9-conclusion)  
-10. [Next Steps](#10-next-steps)  
+6. [Conceptual Diagrams](#6-conceptual-diagrams)  
+7. [References & Further Reading](#7-references--further-reading)  
+8. [Conclusion](#8-conclusion)  
+9. [Next Steps](#9-next-steps)  
 
 ---
 
@@ -363,7 +349,7 @@ int main() {
 
 ---
 
-## 7. Conceptual Diagrams
+## 6. Conceptual Diagrams
 
 ### Diagram 1: Pageable vs. Pinned Memory Flow
 
@@ -410,7 +396,7 @@ sequenceDiagram
 
 ---
 
-## 8. References & Further Reading
+## 7. References & Further Reading
 
 1. **CUDA C Programming Guide – Pinned Memory**  
    [CUDA Unified Memory & Pinned Memory](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#um-overview)  
@@ -424,7 +410,7 @@ sequenceDiagram
 
 ---
 
-## 9. Conclusion
+## 8. Conclusion
 
 Today, we have:
 - Explored the differences between **pageable and pinned host memory**.
@@ -435,7 +421,7 @@ Today, we have:
 
 ---
 
-## 10. Next Steps
+## 9. Next Steps
 
 - **Experiment:**  
   Modify the example to handle larger data sizes and test the limits of pinned memory.
@@ -446,5 +432,4 @@ Today, we have:
 - **Expand:**  
   Apply these techniques in larger projects like image processing or deep learning pipelines.
 
-Happy CUDA coding, and continue to optimize your data transfer performance!
 ```
