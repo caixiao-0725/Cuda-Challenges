@@ -185,9 +185,8 @@ flowchart TD
 ```
 *Explanation:*  
 - This diagram shows the flow of the progress checkpoint: reviewing notes, recapping key concepts, taking a quiz, compiling a lessons learned list, identifying pitfalls, and planning future best practices.
+
 ---
-
-
 ## 7.  Questions and Answers.
 
 Below are 20 logical quiz questions along with their answers. These questions are designed to test your understanding of the key concepts covered in Days 1–13, with a focus on global versus shared memory, thread synchronization, memory coalescing, atomic operations, and overall CUDA best practices.
@@ -1345,7 +1344,6 @@ Implement a CUDA kernel to perform one iteration of the conjugate gradient metho
 - Synchronize threads within blocks during reduction steps.
 
 ---
-
 ## 11.  Hard LeetCode-Style CUDA Coding Problems – Detailed Solutions with Comments
 
 Below are detailed solutions for 20 advanced CUDA coding problems with extensive inline comments explaining every step of the code. These solutions build upon topics such as hierarchical reductions, dynamic parallelism, sparse computations, and performance optimizations. Use these annotated solutions as a guide to understand the intricate details of high-performance CUDA programming.
