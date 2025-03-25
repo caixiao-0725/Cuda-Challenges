@@ -1,4 +1,3 @@
-```markdown
 # Day 18: Error Handling & `cudaGetErrorString()`
 
 CUDA provides **powerful parallel computing capabilities**, but **errors in CUDA programs** can be **hard to detect and debug** if not handled properly. CUDA API calls and kernel launches **do not crash immediately on failure**; instead, errors **propagate silently** and may lead to incorrect behavior or undefined results.
@@ -248,5 +247,4 @@ Today, we explored:
 - **Experiment with forcing CUDA errors** to test error handling.
 - **Use Nsight Compute** to debug CUDA programs.
 
-Happy CUDA coding!
 ```
