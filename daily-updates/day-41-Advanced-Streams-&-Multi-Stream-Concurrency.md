@@ -1,4 +1,3 @@
-```markdown
 # Day 41: Advanced Streams & Multi-Stream Concurrency
 
 **Objective:**  
