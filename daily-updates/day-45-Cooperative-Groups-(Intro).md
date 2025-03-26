@@ -1,4 +1,3 @@
-```markdown
 # Day 45: Cooperative Groups (Intro)
 
 **Objective:**  
