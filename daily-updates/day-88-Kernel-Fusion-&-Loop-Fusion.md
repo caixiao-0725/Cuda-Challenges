@@ -1,4 +1,3 @@
-```markdown
 # Day 88: Kernel Fusion & Loop Fusion
 
 In high-performance GPU programming, minimizing kernel launch overhead is crucial. **Kernel Fusion** and **Loop Fusion** are techniques used to merge multiple small kernels (or loops within a kernel) into a single, larger kernel. This approach reduces launch overhead and can improve data locality. However, overly fused kernels may exceed register or shared memory limits, which can in turn reduce performance. In this lesson, we discuss the benefits and trade-offs of kernel and loop fusion, provide implementation guidelines, and illustrate the concepts with code examples and comprehensive conceptual diagrams.
