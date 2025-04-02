@@ -1,0 +1,3 @@
+add_executable(day_4_simple_kernel_launch simple_kernel_launch.cu)
+add_executable(day_4_matrix_multiplication matrix_multiplication.cu)
+
