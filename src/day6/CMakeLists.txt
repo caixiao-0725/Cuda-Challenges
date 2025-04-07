@@ -1,0 +1,1 @@
+add_executable(day6 element_wise_mutiplication.cu)
