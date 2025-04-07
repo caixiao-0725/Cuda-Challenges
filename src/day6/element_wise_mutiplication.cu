@@ -44,7 +44,7 @@ int main() {
     for (int i = 0; i < 10; i++) {
         printf("C[%d] = %f\n", i, h_C[i]);
     }
-
+    
     // Clean up
     cudaFree(d_A);
     cudaFree(d_B);

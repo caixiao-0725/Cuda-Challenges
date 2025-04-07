@@ -1,0 +1,10 @@
+CompileFlags:
+  Compiler: cl.exe
+  Add: 
+    - "-xcuda"
+    - "--cuda-path=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6"
+    - "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include"
+    - "--cuda-gpu-arch=sm_89"
+    - "-std=c++17"
+    - "-D__CUDACC__"
+    - "--target=x86_64-pc-windows-msvc"
