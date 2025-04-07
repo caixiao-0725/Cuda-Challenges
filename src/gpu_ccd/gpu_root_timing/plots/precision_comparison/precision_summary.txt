@@ -1,0 +1,22 @@
+\begin{tabular}{lllrrrrr}
+\toprule
+Precision & Method & QueryType & Mean (ns) & Std Dev (ns) & Min (ns) & Max (ns) & Count \\
+\midrule
+double & direct & edge-edge & 149.25 & 102.70 & 9.00 & 373.22 & 15 \\
+double & direct & vertex-triangle & 162.37 & 97.02 & 10.50 & 257.00 & 15 \\
+double & poly & edge-edge & 146.90 & 104.23 & 9.50 & 373.03 & 15 \\
+double & poly & vertex-triangle & 155.30 & 92.91 & 9.50 & 245.00 & 15 \\
+double_fast_math & direct & edge-edge & 149.10 & 102.77 & 9.50 & 373.03 & 15 \\
+double_fast_math & direct & vertex-triangle & 161.63 & 96.28 & 10.50 & 257.00 & 15 \\
+double_fast_math & poly & edge-edge & 145.70 & 105.28 & 9.00 & 373.03 & 15 \\
+double_fast_math & poly & vertex-triangle & 155.40 & 92.74 & 10.00 & 245.00 & 15 \\
+float & direct & edge-edge & 67.76 & 56.92 & 8.00 & 248.46 & 15 \\
+float & direct & vertex-triangle & 58.03 & 37.85 & 8.00 & 134.50 & 15 \\
+float & poly & edge-edge & 91.81 & 77.12 & 8.50 & 290.08 & 15 \\
+float & poly & vertex-triangle & 78.37 & 63.02 & 9.50 & 208.50 & 15 \\
+float_fast_math & direct & edge-edge & 65.62 & 50.79 & 8.00 & 220.81 & 15 \\
+float_fast_math & direct & vertex-triangle & 53.73 & 31.48 & 9.00 & 81.00 & 15 \\
+float_fast_math & poly & edge-edge & 85.65 & 72.52 & 9.00 & 276.22 & 15 \\
+float_fast_math & poly & vertex-triangle & 78.30 & 63.17 & 9.00 & 208.50 & 15 \\
+\bottomrule
+\end{tabular}

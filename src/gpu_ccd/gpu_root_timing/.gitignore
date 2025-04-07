@@ -1,0 +1,6 @@
+!.gitignore
+results_double/
+results_float/
+results_double_fast_math/
+results_float_fast_math/
+

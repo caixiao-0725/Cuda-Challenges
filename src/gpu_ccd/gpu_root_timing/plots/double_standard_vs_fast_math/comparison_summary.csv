@@ -1,0 +1,9 @@
+Precision,Method,QueryType,Mean (ns),Std Dev (ns),Min (ns),Max (ns)
+double,direct,edge-edge,149.24800000000002,102.70465139000696,9.0,373.22
+double,direct,vertex-triangle,162.36666666666667,97.01738921205728,10.5,257.0
+double,poly,edge-edge,146.902,104.2254311028332,9.5,373.03
+double,poly,vertex-triangle,155.3,92.91447680528584,9.5,245.0
+double_fast_math,direct,edge-edge,149.10199999999998,102.77038721621821,9.5,373.03
+double_fast_math,direct,vertex-triangle,161.63333333333333,96.27573249093805,10.5,257.0
+double_fast_math,poly,edge-edge,145.70199999999997,105.27719833169682,9.0,373.03
+double_fast_math,poly,vertex-triangle,155.4,92.73641602489747,10.0,245.0
